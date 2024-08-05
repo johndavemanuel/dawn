@@ -121,7 +121,8 @@
       },
       "payment": {
         "order_edit_banner_items_removed": {
-          "with_quantities": "Inalis {{delta}} ng {{quantity}}"
+          "with_quantities": "Inalis {{delta}} ng {{quantity}}",
+          "in_full": "Inalis"
         },
         "order_edit_banner_items_returned": {
           "in_full": "Ibinalik ang {{quantity}}",
@@ -264,7 +265,138 @@
         "klarna_pay_now_label": "Magbayad ngayon sa Klarna",
         "klarna_slice_it_label": "Pananalapi kasama si Klarna",
         "amazon_payments_login_hint": "Hihilingin sa iyo na mag-login gamit ang Amazon.",
-        "amazon_payments_logout": "Mag-log out mula sa Amazon Pay"
+        "amazon_payments_logout": "Mag-log out mula sa Amazon Pay",
+        "bank_picker_label": "bangko",
+        "purchase_options_card_update_agreement_label_html": "Sa pamamagitan ng pag-update ng iyong paraan ng pagbabayad, pinapahintulutan mo ang mga pagbabayad para sa anumang umuulit o ipinagpaliban na pagbili ayon sa <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">patakaran sa pagkansela<\/a> ng tindahan na ito.",
+        "subscription_card_update_agreement_label": "Ang pagbabago sa paraan ng pagbabayad ay mag-a-update sa iyong subscription at mga umuulit na pagbabayad sa hinaharap.",
+        "subscription_agreement_label": "Ang isa o higit pang mga item sa iyong cart ay isang ipinagpaliban o pagbili ng subscription. Sa pamamagitan ng pagpapatuloy sa iyong pagbabayad, sumasang-ayon ka na ang iyong paraan ng pagbabayad ay awtomatikong sisingilin sa presyo at dalas na nakalista sa page na ito hanggang sa matapos ito o magkansela ka. Ang lahat ng mga pagkansela ay napapailalim sa %{cancelled}.",
+        "subscription_agreement_cancelled": "patakaran sa pagkansela",
+        "subscription_heading": "Kasunduan sa subscription",
+        "subscription_agreement_label_html": "Naiintindihan ko na sumasang-ayon ako sa isang subscription. Ito ay magre-renew sa presyo at dalas na nakalista hanggang sa matapos ito o ay\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">kinansela<\/a> .\n",
+        "purchase_options_agreement_label": "Ang isa o higit pang mga item sa iyong cart ay isang ipinagpaliban o paulit-ulit na pagbili. Sa pamamagitan ng pagpapatuloy sa iyong pagbabayad, sumasang-ayon ka na ang iyong paraan ng pagbabayad ay awtomatikong sisingilin sa presyo at dalas na nakalista sa page na ito hanggang sa matapos ito o magkansela ka. Ang lahat ng pagkansela ay napapailalim sa %{cancellation_policy_label}.",
+        "purchase_options_agreement_label_html": "Naiintindihan ko na ang isa o higit pang mga item sa aking cart ay isang ipinagpaliban o paulit-ulit na pagbili. Sa pagpapatuloy, sumasang-ayon ako sa\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">patakaran sa pagkansela<\/a>\n at pinahihintulutan kang singilin ang aking paraan ng pagbabayad sa mga presyo, dalas at petsang nakalista sa pahinang ito hanggang sa aking\n natupad ang order o kanselahin ko, kung pinahihintulutan.\n",
+        "purchase_options_agreement_label_wallets": "Sa pamamagitan ng pagpapatuloy sa iyong pagbabayad, sumasang-ayon ka sa mga singil sa hinaharap na nakalista sa pahinang ito at sa patakaran sa pagkansela.",
+        "change_currency_section_description": "Pumili ng opsyon sa pera",
+        "no_real_orders_dev_store": "Ang tindahan na ito ay hindi maaaring tumanggap ng mga tunay na order o tunay na pagbabayad.",
+        "waiting_on_payment_methods": "Pagkuha ng mga available na paraan ng pagbabayad...",
+        "apple_pay_payment_error": "Hindi makumpleto ang iyong pagbabayad. Subukang muli o gumamit ng ibang paraan ng pagbabayad.",
+        "taxes_not_included": "Hindi kasama ang mga buwis",
+        "no_taxes_banner_content": "Hindi sisingilin ang mga buwis sa order na ito. Kapag nakakolekta ka na ng bayad, hindi na maidaragdag ang mga buwis.",
+        "paypal": {
+          "connect": "I-click upang ikonekta ang iyong PayPal account"
+        },
+        "apple": {
+          "connect": "I-click upang ikonekta ang iyong Apple Pay account",
+          "not_available": "Hindi available ang Apple Pay sa browser na ito. Upang ikonekta ang iyong Apple Pay account, kakailanganin mong gamitin ang Safari sa isang Apple device."
+        },
+        "google": {
+          "connect": "I-click upang kumonekta sa iyong Google Pay account",
+          "error_authorizing": "Error sa pagpapahintulot sa pagbabayad"
+        },
+        "account_connected": "Nakakonekta ang account.",
+        "mor_disclaimer_html": "Sa pamamagitan ng pag-click sa ibaba at pagkumpleto ng iyong order, sumasang-ayon kang bilhin ang iyong (mga) item mula sa Global-e bilang merchant of record\n para sa transaksyong ito, sa <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Mga Tuntunin at Kundisyon<\/a> ng Global-e\n at <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Patakaran sa Privacy<\/a> . Ang Global-e ay isang internasyonal\n tagabigay ng serbisyo sa katuparan sa %{shop_name}\n",
+        "pending_payment": {
+          "due_notice": "Ang iyong pagbabayad na %{amount_due} ay dapat bayaran sa %{due_date}.",
+          "multibanco": {
+            "buyer_action_info": "Ang iyong pagbabayad na %{amount_due} ay dapat bayaran.",
+            "instruction_html": "Magbayad sa Multibanco o online gamit ang mga detalye sa ibaba. Para sa mga tanong o para i-update ang mga detalye ng pagbabayad, %{contact_us}.",
+            "reference": "Sanggunian",
+            "amount": "Halaga",
+            "find_nearest_atm": "Maghanap ng Pinakamalapit na ATM"
+          }
+        },
+        "update_payment_method": "I-update ang paraan ng pagbabayad",
+        "order_covered_by_store_credit_notice": "Ang iyong order ay sakop ng iyong credit sa tindahan.",
+        "order_covered_by_redeemables_notice": "Saklaw ang iyong order.",
+        "store_credit": {
+          "label": "Credit sa tindahan",
+          "apply_label": "Mag-apply ng credit sa tindahan",
+          "add_label": "Magdagdag ng credit sa tindahan",
+          "manage_label": "Pamahalaan ang credit ng tindahan",
+          "buying_gift_card": "Hindi mo magagamit ang credit ng tindahan para bumili ng gift card",
+          "no_fixed_selling_plans": "Hindi ka maaaring gumamit ng credit sa tindahan na may mga opsyon sa ipinagpaliban na pagbili"
+        },
+        "clear": "Maaliwalas",
+        "billing_must_match_shipping_notice": "Dapat tumugma ang billing address ng iyong paraan ng pagbabayad sa address ng pagpapadala.",
+        "same_billing_address_checkbox_label": "Gamitin ang shipping address bilang billing address",
+        "location_billing_address_label": "Address sa pagsingil ng lokasyon",
+        "location_shipping_address_label": "Address ng pagpapadala ng lokasyon",
+        "use_order_billing_address_label": "Gamitin ang billing address ng order",
+        "use_location_billing_address_label": "Gamitin ang billing address ng lokasyon",
+        "use_location_shipping_address_label": "Gamitin ang address sa pagpapadala ng lokasyon",
+        "no_working_method_error": "Ang tindahan na ito ay hindi maaaring tumanggap ng mga pagbabayad sa ngayon. I-refresh ang page na ito o bumalik mamaya.",
+        "brand_not_available": "Ang tindahang ito ay hindi tumatanggap ng {{brand}} . Mangyaring gumamit ng ibang card upang magbayad.",
+        "shipping_rate_updated": "Ang mga magagamit na paraan ng pagpapadala ay na-update. Kumpirmahin ang iyong pinili bago mag-check out.",
+        "billing_address_invalid_phone": "I-update ang numero ng telepono sa iyong billing address para sa {{label}} {{last_digits}} upang magpatuloy.",
+        "billing_address_invalid_phone_no_card": "I-update ang numero ng telepono sa iyong billing address upang magpatuloy.",
+        "preview_not_available": {
+          "title": "Hindi available ang preview",
+          "content": "Huwag mag-alala, gumagana ang express checkout na ito para sa iyong mga customer."
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Maglagay ng wastong petsa ng isyu",
+              "issue_number": "Maglagay ng wastong numero ng isyu"
+            },
+            "invalid": {
+              "verification_value": "Maglagay ng wastong CVV o security code"
+            }
+          }
+        },
+        "simulated_checkout": "Paparating na ang preview",
+        "vaulting_agreement_label": "I-save ang aking impormasyon sa pagbabayad sa %{company} para sa mas mabilis na pag-checkout.",
+        "business_customer_vaulting_payment_label": "I-save ang card na ito sa pag-checkout at pahintulutan ang %{company} na singilin ito para sa mga pagbili sa hinaharap para sa lokasyong ito. Maaaring gamitin ng lahat ng contact na nakatalaga sa lokasyong ito ang card.",
+        "purchase_options_and_vaulting_agreement_label": "Ang isa o higit pang mga item sa iyong cart ay isang ipinagpaliban o pagbili ng subscription. Sa pamamagitan ng pagpapatuloy sa iyong pagbabayad, sumasang-ayon ka na ang iyong paraan ng pagbabayad ay awtomatikong sisingilin sa presyo at dalas na nakalista sa page na ito hanggang sa matapos ito o magkansela ka. Ang lahat ng pagkansela ay napapailalim sa %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "patakaran sa pagkansela",
+        "use_different_credit_card_label": "Gumamit ng ibang card",
+        "saved_credit_card": "Ang iyong na-save na credit card",
+        "saved_credit_card_info": "Huling apat na digit",
+        "saved_credit_card_cvv_verification": "Para sa mga layunin ng pag-verify, mangyaring ilagay ang code ng seguridad ng iyong card.",
+        "saved_credit_card_actions": {
+          "edit": "I-edit",
+          "delete": "Tanggalin"
+        },
+        "saved_credit_cards_modal": {
+          "view_all_label": "Tingnan ang lahat ng naka-save na card",
+          "done": "Tapos na",
+          "cancel": "Kanselahin"
+        },
+        "add_credit_card_modal": {
+          "title": "Magdagdag ng card",
+          "save": "I-save",
+          "cancel": "Kanselahin"
+        },
+        "delete_credit_card_modal": {
+          "title": "Tanggalin ang card",
+          "confirmation": "Sigurado ka bang gusto mong tanggalin ang {{brandName}} na nagtatapos sa {{lastDigits}} ?",
+          "cancel": "Kanselahin",
+          "delete": "Tanggalin"
+        },
+        "edit_credit_card_modal": {
+          "title": "I-edit ang card",
+          "done": "Tapos na",
+          "cancel": "Kanselahin",
+          "description": "Maaari mo lamang baguhin ang billing address ng iyong card.",
+          "fields": {
+            "default": "Itakda bilang default",
+            "card_number": "Numero ng card",
+            "expiry": "Petsa ng pagkawalang bisa",
+            "name": "pangalan sa card",
+            "billing": "Bill sa"
+          }
+        },
+        "expired_cards_info": {
+          "one": "Mayroong %{count} na nag-expire na card, na maaari mong tingnan at i-edit sa iyong account.",
+          "other": "Mayroong %{count} na mga nag-expire na card, na maaari mong tingnan at i-edit sa iyong account."
+        },
+        "local_payment_method_receiver_notice": "Pagkatapos ilagay ang iyong order, makakatanggap ka ng mga detalye ng pagbabayad. Magbayad sa isang ATM o online sa loob ng {{dueDays}} araw.",
+        "order_edit_banner_title": "Kailangan ang pagbabayad ng {{amount_owed}}",
+        "order_edit_banner_subtitle": "Na-update ang iyong order {{order_number}} . Suriin ang mga pagbabagong ito, pagkatapos ay magbayad para kumpirmahin ang iyong order.",
+        "order_edit_banner_items_added": {
+          "one": "Idinagdag",
+          "other": "Idinagdag ang %{count}"
+        }
       },
       "billing": {
         "billing_address_title": "Bill sa",
