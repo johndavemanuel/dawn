@@ -934,6 +934,135 @@
       "invalid_for_country": "ay hindi wasto para sa %{country}",
       "invalid_for_country_and_province": "ay hindi wasto para sa %{province} at %{country}",
       "invalid_province_in_country": "ay hindi wastong lalawigan sa %{country}"
+    },
+    "notices": {
+      "cart": {
+        "digital_product_not_available_for_company_locations": "Ang item na ito ay hindi maaaring idagdag sa isang B2B order",
+        "selling_plan_not_applicable": "Hindi mailapat ang plano sa pagbebenta sa variant",
+        "shipping_address_not_required": "Ang cart na ito ay hindi nangangailangan ng pagpapadala",
+        "shipping_address_invalid": "Nagkaroon ng problema sa pagkalkula ng iyong mga rate ng pagpapadala. Magpatuloy sa pag-checkout upang pumili ng rate ng pagpapadala bago mo makumpleto ang iyong order.",
+        "bundle_requires_components": "Ang bundle na produkto na '%{name}' ay hindi maidaragdag sa cart.",
+        "gift_card_with_components_not_supported": "Ang bundle na produkto na '%{name}' ay hindi maidaragdag sa cart.",
+        "gift_card_price_must_be_greater_than_zero": "Ang bundle na produkto na '%{name}' ay hindi maidaragdag sa cart.",
+        "bundle_products_not_supported_for_b2b_draft": "Ang mga naka-bundle na item ay hindi maaaring idagdag sa mga B2B na order para sa lokasyong ito.",
+        "view_lines_limit_reached": "Ang mga linya ay dapat na mas mababa sa %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Nagkaroon ng error sa iyong cart."
+        }
+      },
+      "storefront": {
+        "invalid_password": "Mali ang password, pakisubukang muli."
+      },
+      "tags": {
+        "add_articles": "Paliitin ang paghahanap sa mga artikulong mayroon ding tag na %{tag}",
+        "add_products": "Paliitin ang pagpili sa mga produktong tumutugma sa tag na %{tag}",
+        "remove_articles": "Palawakin ang paghahanap sa mga artikulong hindi naka-tag na %{tag}",
+        "remove_products": "Alisin ang tag na %{tag}"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Salamat sa pag-subscribe sa aming mailing list.",
+        "disclaimer": "Maaari kang mag-unsubscribe anumang oras.",
+        "unsubscribe": "Mag-unsubscribe"
+      },
+      "unsubscribed": {
+        "confirmation": "Nag-unsubscribe ka sa aming mailing list.",
+        "disclaimer": "Hindi ka na makakatanggap ng anumang mga update sa marketing mula sa amin. Maaari kang mag-subscribe muli anumang oras.",
+        "preview": "Pini-preview mo kung ano ang makikita ng mga customer kapag nag-unsubscribe sila."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Nag-opt in ka sa pag-email sa bukas na pagsubaybay.<\/b>",
+          "visibility": "Ang mga rate ng bukas na email ay iuulat nang hindi nagpapakilala. Makikita lang namin kung nagbukas ka ng email bilang bahagi ng pinagsama-samang rate ng pagbubukas ng email.",
+          "opt_out_html": "Maaari kang <a style=\"text-decoration:underline;\" href=\"%{link}\">mag-opt out<\/a> sa email open tracking kung ayaw mong ibahagi ang impormasyong ito.",
+          "preview_bar": "Pini-preview mo kung ano ang makikita ng mga customer kapag nag-opt in sila sa email na bukas na pagsubaybay."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Nag-opt out ka sa email open tracking.<\/b>",
+          "visibility": "Hindi namin makikita kung nabuksan mo ang aming mga email.",
+          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">Mag-opt in<\/a> sa email bukas na pagsubaybay.",
+          "preview_bar": "Pini-preview mo kung ano ang makikita ng mga customer kapag nag-opt out sila sa email open tracking."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Hindi na namin sinusubaybayan ang anumang email na bubukas.<\/b>",
+          "privacy_policy": "Pagkatapos maipadala ang email na ito, na-update namin ang aming patakaran sa privacy at hindi na namin nagbubukas ang track."
+        },
+        "track": {
+          "status_html": "<b>Iniuulat ang pagsubaybay sa bukas na email.<\/b>",
+          "visibility": "Titingnan lang namin kung nabuksan mo ang email, bilang bahagi ng kabuuang rate ng pagbubukas ng email."
+        },
+        "updated_policy": {
+          "status_html": "<b>Iniuulat ang pagsubaybay sa bukas na email.<\/b>",
+          "visibility": "Na-update namin ang aming patakaran, at ngayon ay subaybayan ang mga email na bubukas. Ang mga rate ng bukas na email ay iuulat nang hindi nagpapakilala. Makikita lang namin kung nagbukas ka ng email bilang bahagi ng kabuuang rate ng pagbubukas ng email.",
+          "opt_out_html": "Kung ayaw mong ibahagi ang impormasyong ito, maaari kang <a style=\"text-decoration:underline;\" href=\"%{link}\">mag-unsubscribe.<\/a>"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "Sa stock"
+        }
+      },
+      "boolean": {
+        "true_label": "Oo",
+        "false_label": "Hindi"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Kaugnayan",
+        "price_ascending": "Presyo, mababa hanggang mataas",
+        "price_descending": "Presyo, mataas hanggang mababa"
+      }
+    },
+    "page_titles": {
+      "products": "Mga produkto",
+      "shopping_cart": "Iyong Shopping Cart",
+      "create_account": "Lumikha ng Account",
+      "reset_account": "I-reset ang Account",
+      "addresses": "Mga address",
+      "search": "Maghanap",
+      "search_results": {
+        "one": "Paghahanap: %{count} resulta ang nakita para sa \"%{terms}\"",
+        "other": "Paghahanap: %{count} resulta ang nakita para sa \"%{terms}\""
+      },
+      "collections": "Mga koleksyon",
+      "not_found": "404 Hindi Natagpuan",
+      "challenge": "Hamon"
+    },
+    "cart": {
+      "discounts_with_count": "%{count} na mga diskwento ang nailapat"
+    },
+    "challenge": {
+      "message": "Para magpatuloy, ipaalam sa amin na hindi ka robot.",
+      "error": "Hindi tama ang iyong sagot, pakisubukang muli.",
+      "submit_button_text": "Ipasa"
+    },
+    "forms_captcha": {
+      "badge_text": "Pinoprotektahan ng hCaptcha",
+      "terms_link_text": "Mga tuntunin",
+      "privacy_link_text": "Pagkapribado"
+    },
+    "checkpoint": {
+      "message": "Lutasin ang Captcha upang magpatuloy",
+      "error": "Nabigo ang pagpapatunay ng captcha",
+      "submit_button_text": "Ipasa"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Karaniwang handa sa loob ng 1 oras",
+        "two_hours": "Karaniwan handa sa loob ng 2 oras",
+        "four_hours": "Karaniwan handa sa loob ng 4 na oras",
+        "twenty_four_hours": "Karaniwang handa sa loob ng 24 na oras",
+        "two_to_four_days": "Karaniwan handa sa 2-4 na araw",
+        "five_or_more_days": "Karaniwang handa sa loob ng 5+ araw",
+        "zero_to_two_hours": "Karaniwan handa sa loob ng 2 oras",
+        "two_to_four_hours": "Karaniwan handa sa loob ng 4 na oras",
+        "immediately": "Handa na para sa pickup ngayon",
+        "next_day": "Handa nang kunin sa susunod na araw"
+      }
     }
   },
   "customer": {
@@ -1324,6 +1453,31 @@
         "payment_terms": "Kasunduan sa pagbabayad",
         "permissions_label": "Ang iyong mga pahintulot",
         "permissions_title": "Mga Pahintulot"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Hindi na magiging available ang paraan ng pagbabayad na ito para sa mga pagbili sa hinaharap mula sa lokasyong ito.",
+          "description_with_replacement": "Ang pagtanggal sa paraan ng pagbabayad na ito ay makakaapekto sa mga preauthorized na pagbabayad para sa lokasyong ito. Palitan ito ng alternatibong paraan ng pagbabayad para patuloy na makatanggap ng mga paparating na order."
+        },
+        "payment_details": {
+          "order_label": "Order {{name}}",
+          "draft_label": "Draft order {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Magdagdag ng PO number",
+        "add_modal_title": "Magdagdag ng PO number",
+        "cancel": "Kanselahin",
+        "close_modal_accessibility_label": "Isara ang PO number modal",
+        "discard": "Itapon",
+        "discard_changes_modal_title": "Itapon ang mga pagbabago?",
+        "edit_accessibility_label": "I-edit ang PO number",
+        "edit_modal_title": "I-edit ang PO number",
+        "empty_state": "Walang PO number",
+        "modal_po_number_input_label": "Numero ng PO",
+        "modal_po_number_input_max_length_error": "Ang mga numero ng PO ay may maximum na {{maxLength}} na mga character.",
+        "save": "I-save",
+        "title": "PO # {{poNumber}}"
       }
     },
     "payment_methods": {
@@ -1333,7 +1487,24 @@
         "replace_payment_method": "Palitan ang paraan ng pagbabayad",
         "checkout_card_banner": "Magagamit lang ang paraan ng pagbabayad na ito para sa mga pre-authorized na pagbabayad. Hindi ito lilitaw sa pag-checkout kung naka-log in ka sa tindahang ito.",
         "default_checkbox": "Itakda bilang default",
-        "default_checkbox_accessibility_label": "Itakda ang paraan ng pagbabayad na ito bilang default"
+        "default_checkbox_accessibility_label": "Itakda ang paraan ng pagbabayad na ito bilang default",
+        "title": "Mga detalye ng paraan ng pagbabayad",
+        "credit_card_details_accessibility_label": "nagtatapos sa {{lastDigits}}",
+        "card_info_title": "Impormasyon sa card",
+        "payment_method_expiring_on": "Mag-e-expire sa {{expiryDate}}",
+        "payment_method_expired_on": "Nag-expire noong {{expiryDate}}",
+        "preauthorized_payments": "Paunang awtorisadong pagbabayad",
+        "close_payment_modal": "Isara",
+        "close_payment_modal_accessibility_label": "Isara ang modal ng mga detalye ng paraan ng pagbabayad",
+        "payment_method_not_found_error": "Hindi mahanap ang paraan ng pagbabayad",
+        "payment_details_loading": "Nilo-load ang mga detalye ng paraan ng pagbabayad",
+        "pre_authorized_payments": "Mga paunang awtorisadong pagbabayad",
+        "total_amount_of_subscription_line_items_left": "at {{total}} pa",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} item sa kabuuan, nagpapakita ng {{totalItemsToDisplay}} item.",
+        "next_payment_due": "Ang susunod na pagbabayad ay dapat bayaran {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "I-edit",
+        "edit_payment_method_button_accessibility_label": "I-edit ang paraan ng pagbabayad na nagtatapos sa {{lastDigits}}",
+        "loading_shop_pay": "Naglo-load ng Shop Pay"
       },
       "edit_payment_method": {
         "title": "I-edit ang paraan ng pagbabayad",
@@ -1401,6 +1572,58 @@
           "choose_billing_address_from_list_button_accessibility_label": "Pumili ng billing address mula sa listahan",
           "missing_billing_address_error_message": "Mangyaring tumukoy ng billing address",
           "default_checkbox": "Itakda bilang default na paraan ng pagbabayad"
+        }
+      },
+      "title": "Mga paraan ng pagbabayad",
+      "add_payment_method_button": "Magdagdag ng paraan ng pagbabayad",
+      "add_payment_method_banner": "Magdagdag ng paraan ng pagbabayad para sa mas mabilis na pag-checkout o mga paunang awtorisadong serbisyo",
+      "no_payment_methods_banner": "Walang idinagdag na paraan ng pagbabayad",
+      "edit_payment_method_button_accessibility_label": "I-edit {{paymentMethodName}} na nagtatapos sa {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "I-edit {{paymentMethodName}}",
+      "delete_payment_method_button": "Tanggalin",
+      "delete_payment_method_button_accessibility_label": "Tanggalin {{paymentMethodName}}",
+      "back_button": "Bumalik",
+      "back_button_accessibility_label": "Bumalik sa {{paymentMethodStepTitle}}",
+      "expiration_warning_button_accessibility_label": "Ipakita ang babala sa pag-expire para sa {{paymentMethodName}} na nagtatapos sa {{lastDigits}}",
+      "expires_soon": "Malapit nang mag-expire ang card na ito",
+      "expired": "Nag-expire na ang card na ito",
+      "card_update_consent": "Ise-save ang paraan ng pagbabayad na ito para sa mga pagbili sa hinaharap.",
+      "credit_or_debit_card_title": "Credit o debit card",
+      "google_pay": {
+        "loading": "Nilo-load ang Google Pay",
+        "errors": {
+          "generic": "Nagkaroon ng problema sa Google Pay. Subukang muli o gumamit ng ibang paraan ng pagbabayad.",
+          "missing_billing_address": "Nangangailangan ang Google Pay ng billing address. Mangyaring magdagdag ng isa sa iyong account."
+        }
+      },
+      "apple_pay": {
+        "loading": "Nilo-load ang Apple Pay",
+        "errors": {
+          "generic": "Nagkaroon ng problema sa Apple Pay. Subukang muli o gumamit ng ibang paraan ng pagbabayad.",
+          "not_available": "Hindi available ang Apple Pay sa device na ito.",
+          "missing_billing_address": "Nangangailangan ang Apple Pay ng billing address. Mangyaring magdagdag ng isa sa iyong account."
+        }
+      },
+      "store_credit": {
+        "label": "Credit sa tindahan",
+        "accesibility_label": "Kredito sa tindahan - {{formattedBalance}}",
+        "expirable_amounts_button": "Tingnan ang mga expirable na halaga",
+        "expirable_amounts_label": "Mga nae-expire na halaga",
+        "details_modal": {
+          "title": "Expired na credit sa tindahan",
+          "balance_label": "Balanse",
+          "expiration_date_label": "Petsa ng pagkawalang bisa",
+          "amount_label": "Halaga",
+          "date_label": "Petsa",
+          "expirable_balance_info": "Mag-e-expire ang ilan sa iyong balanse sa hinaharap na petsa",
+          "expirable_amount_label": "Kabuuang halaga ng expirable",
+          "expirable_amounts_info": "Ang mga halagang mag-e-expire nang mas maaga ay ilalapat muna sa pag-checkout",
+          "expirable_amounts_button": "Tingnan",
+          "expired_amounts_button": "Tingnan ang mga nag-expire na halaga",
+          "pagination": {
+            "load_more_label": "Mag-load pa",
+            "load_more_accessibility_label": "Mag-load ng mas maraming expirable na halaga"
+          }
         }
       }
     },
@@ -1693,7 +1916,25 @@
       "orders_link_label": "Mga order",
       "shop_logo_accessibility_label": "Logo ng {{shopName}}",
       "subscriptions_link_label": "Mga subscription",
-      "settings_link": "Mga setting"
+      "settings_link": "Mga setting",
+      "account_menu": {
+        "hide_accessibility_label": "Itago ang menu ng Account",
+        "show_accessibility_label": "Ipakita ang menu ng Account",
+        "nav_accessibility_label": "Pag-navigate sa account",
+        "open_menu_accessibility_label": "Buksan ang Account navigation",
+        "close_menu_accessibility_label": "Isara ang Account navigation",
+        "loading_message": "Nilo-load ang nabigasyon ng Account"
+      },
+      "action_menu_accessibility_label": "Higit pang mga aksyon",
+      "close_menu_accessibility_label": "Isara ang pangunahing nabigasyon",
+      "contact_email_subject": "Makipag-ugnayan mula sa online na tindahan {{shopName}}",
+      "contact_link": "Impormasyon sa pakikipag-ugnayan",
+      "delete_confirmation": {
+        "cancel": "Kanselahin",
+        "delete": "Tanggalin"
+      },
+      "dismiss_toast": "I-dismiss",
+      "document_title": "{{sectionName}} - {{shopName}} - Account"
     },
     "account_information": {
       "loading_accessibility_message": "Nilo-load ang impormasyon ng account",
@@ -1720,6 +1961,72 @@
         }
       },
       "add_button": "Idagdag"
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneHourAgo": {
+          "one": "{{count}} minuto ang nakalipas",
+          "other": "{{count}} minuto ang nakalipas"
+        },
+        "lessThanOneMinuteAgo": "Ngayon lang",
+        "yesterday": "Kahapon sa {{time}}",
+        "today": "Ngayon sa {{time}}",
+        "tomorrow": "Bukas sa {{time}}"
+      }
+    },
+    "enable_javascript": "Upang tingnan ang iyong account, paganahin ang JavaScript sa mga setting ng iyong browser o mag-log in gamit ang isa pang browser.",
+    "errors": {
+      "address_deletion_error": {
+        "description": "Nagkaroon ng problema sa pagtanggal ng address na ito. Subukang muli o i-refresh ang pahina."
+      },
+      "addresses_loading_issue": {
+        "description": "Error sa koneksyon. Suriin ang iyong koneksyon sa internet at subukang muli."
+      },
+      "banner_title": {
+        "one": "Mayroong {{count}} na error",
+        "other": "Mayroong {{count}} na mga error"
+      },
+      "failed_address_creation": {
+        "description": "Nagkaroon ng problema sa paggawa ng iyong address. Subukang i-refresh ang page na ito o tingnan ang iyong koneksyon sa internet."
+      },
+      "failed_address_update": {
+        "description": "Nagkaroon ng problema sa pag-update ng iyong address. Subukang i-refresh ang page na ito o tingnan ang iyong koneksyon sa internet."
+      },
+      "load_orders_error": {
+        "title": "Hindi ma-load ang mga order",
+        "description": "Subukan muli o bumalik mamaya.",
+        "retry_button": "Subukan muli"
+      },
+      "load_paypal_error": {
+        "description": "May problema sa pag-load ng PayPal. Pakisubukang muli."
+      },
+      "logout_everywhere": {
+        "description": "Nagkaproblema sa pag-log out. Pakisubukang muli."
+      },
+      "no_access": {
+        "back_to_authentication_link": "Mag-log in sa ibang account",
+        "description": "Hindi ka nakarehistro bilang B2B customer sa {{shopName}}",
+        "title": "Walang access"
+      },
+      "no_access_to_locations": {
+        "description": "Wala kang access sa anumang mga lokasyon"
+      },
+      "not_found": {
+        "description": "Suriin ang URL o subukang muli sa loob ng ilang minuto.",
+        "title": "May problema sa paglo-load ng page na ito"
+      },
+      "order_not_found": {
+        "description": "Wala ang order na ito o wala kang pahintulot na tingnan ito.",
+        "title": "Hindi nakita ang order"
+      },
+      "profile_update_error": {
+        "description": "Nagkaroon ng problema sa pag-update ng iyong profile. Subukang i-refresh ang page na ito o tingnan ang iyong koneksyon sa internet."
+      },
+      "retry_action_label": "Subukan muli",
+      "load_extension_error": {
+        "description": "I-refresh ang page na ito o subukang muli sa loob ng ilang minuto.",
+        "refresh_button": "I-refresh ang page"
+      }
     }
   },
   "sections": {
