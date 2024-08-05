@@ -895,5 +895,369 @@
     "search": "Maghanap",
     "popular_countries_regions": "Mga sikat na bansa\/rehiyon",
     "country_results_count": "{{ count }} na mga bansa\/rehiyon ang natagpuan"
+  },
+  "customer_accounts": {
+    "order_details": {
+      "edit_summary": {
+        "returned": "Ibinalik",
+        "returned_with_quantities": "Ibinalik ang {{delta}} ng {{total}}",
+        "removed_with_quantities": "Inalis {{delta}} ng {{total}}",
+        "return_line_item_removed": "Inalis sa pagbabalik",
+        "return_line_item_removed_with_quantities": "Inalis {{delta}} mula sa pagbabalik"
+      },
+      "shop_pay": {
+        "order_completed_with": "Nakumpleto ang order sa",
+        "learn_more": "Matuto pa"
+      },
+      "taxes": "Mga buwis",
+      "duties": "Mga tungkulin",
+      "ok_duties_tooltip": "Ang order na ito ay ipinapadala mula sa ibang bansa, kaya ang mga tungkulin ay idinagdag sa iyong kabuuang order.",
+      "error_duties_tooltip": "Ang order na ito ay ipinapadala mula sa ibang bansa, kaya maaaring singilin ang mga tungkulin at buwis sa paghahatid.",
+      "zero_duties_tooltip": "Ang order na ito ay ipinapadala mula sa ibang bansa. Hindi sinisingil ang mga tungkulin sa mga order na may ganitong halaga.",
+      "title": "Order {{name}}",
+      "total": "Kabuuan",
+      "unit_price": "{{price}} \/ea",
+      "pagination": {
+        "load_more": "Mag-load pa",
+        "load_more_accessibility_label": "Mag-load ng higit pang mga item",
+        "loading_accessibility_label": "Naglo-load ng mga item"
+      },
+      "login_to_view_all_order_details": "Mag-log in para tingnan ang lahat ng detalye ng order.",
+      "log_in": "Mag log in",
+      "logged_in_account_no_permission_to_order": "Naka-log in ka bilang {{email}} . Ang account na ito ay walang pahintulot na pamahalaan ang order na ito.",
+      "log_in_to_a_different_account": "Mag-log in sa ibang account",
+      "fees": {
+        "restocking_fee": "Bayad sa pag-restock",
+        "return_shipping_fee": "Ibalik ang pagpapadala"
+      },
+      "vat_invoices": {
+        "title": "Mga invoice ng VAT"
+      }
+    },
+    "addresses": {
+      "add_button": "Magdagdag ng address",
+      "add_button_text": "Idagdag",
+      "add_button_accessibility_label": "Magdagdag ng address",
+      "back_button": "Bumalik",
+      "back_button_accessibility_label": "Bumalik sa pag-edit ng address {{address}}",
+      "add_address_banner": "Magdagdag ng mga address na gagamitin sa pag-checkout",
+      "no_addresses_banner": "Walang naidagdag na mga address",
+      "address_deleted_notification": "Tinanggal ang address",
+      "cancel_adding_address_accessibility_label": "Kanselahin ang pagdaragdag ng address",
+      "cancel_deletion_button": "Kanselahin",
+      "cancel_deletion_button_accessibility_label": "Kanselahin ang pagtanggal ng {{address}}",
+      "default_address": {
+        "title": "Default na address",
+        "title_accessibility_label": "Default na address: {{address}}"
+      },
+      "delete_button": "Tanggalin",
+      "delete_button_accessibility_label": "Tanggalin ang {{address}}",
+      "delete_confirmation_button": "Tanggalin ang address",
+      "delete_confirmation_button_accessibility_label": "Tanggalin ang {{address}}",
+      "delete_confirmation_message": "Tanggalin ang address? Ang mga kasalukuyang order ay hindi apektado.",
+      "delete_confirmation_title": "Tanggalin ang address?",
+      "delete_confirmation_description": "Ang mga kasalukuyang order ay hindi apektado.",
+      "edit_button": "I-edit",
+      "edit_button_accessibility_label": "I-edit ang {{address}}",
+      "edit_section_accessibility_label": "I-edit ang {{address}}",
+      "edit_modal_title": {
+        "default": "I-edit ang address",
+        "billing": "I-edit ang billing address",
+        "shipping": "I-edit ang address ng pagpapadala"
+      },
+      "loading_accessibility_message": "Nilo-load ang address",
+      "loading_addresses_accessibility_message": "Naglo-load ng mga address",
+      "loading_billing_accessibility_message": "Nilo-load ang billing address",
+      "loading_finished_accessibility_message": "Na-load ang bagong pahina ng mga address",
+      "loading_shipping_accessibility_message": "Nilo-load ang address ng pagpapadala",
+      "pagination": {
+        "load_more": "Mag-load pa",
+        "load_more_accessibility_label": "Mag-load ng higit pang mga address"
+      },
+      "save_new_address_accessibility_label": "I-save ang address",
+      "title": "Mga address"
+    },
+    "address_form": {
+      "attention": "Pansin",
+      "attention_company": "Kumpanya\/pansin",
+      "attention_help_text": "Ang pangalan ng isang tao o departamento",
+      "auto_complete_close_accessibility_label": "Isara ang mga mungkahi",
+      "auto_complete_title": "Mga mungkahi",
+      "billing_address": "Gamitin bilang billing address",
+      "cancel": "Kanselahin",
+      "cancel_accessibility_label": "Kanselahin ang pag-edit ng address {{address}}",
+      "creation_success_notification": "Idinagdag ang address",
+      "default_address": "Ito ang aking default na address",
+      "default_address_creation_success_notification": "Idinagdag ang default na address",
+      "default_address_update_success_notification": "Na-update ang default na address",
+      "loading_add_form_accessibility_message": "Naglo-load ng bagong address form",
+      "loading_edit_form_accessibility_message": "Nilo-load ang form ng pag-edit ng address",
+      "loading_form_accessibility_message": "Nilo-load ang form ng address",
+      "loading_finished_accessibility_message": "Na-load ang address form",
+      "save": "I-save",
+      "save_accessibility_label": "I-save ang address {{address}}",
+      "section_title_accessibility_label": "Magdagdag ng address",
+      "update_success_notification": "Na-update ang address"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Pangalan ng Kumpanya",
+        "company_card_section_accessibility_label": "kumpanya"
+      },
+      "locations": {
+        "contact_list_title": "Mga tao",
+        "contact_name": "Pangalan",
+        "contact_permissions": "Mga Pahintulot",
+        "contact_phone_number": "Numero ng telepono",
+        "location_picker_label": "Pangalan ng lugar",
+        "location_picker_accessibility_label": "Pangalan ng lokasyon: {{locationName}}",
+        "net_payment_terms_description": "{{name}} : mga pagbabayad na dapat bayaran sa loob ng {{numberOfDays}} na) araw",
+        "deposit_percentage": "{{percentage}} na deposito",
+        "own_role_contact_name": "Ikaw",
+        "pagination": {
+          "load_more": "Mag-load pa",
+          "load_more_accessibility_label": "Mag-load ng higit pang mga lokasyon"
+        },
+        "payment_details_title": "Mga detalye ng pagbabayad",
+        "payment_terms": "Kasunduan sa pagbabayad",
+        "permissions_label": "Ang iyong mga pahintulot",
+        "permissions_title": "Mga Pahintulot"
+      }
+    },
+    "payment_methods": {
+      "payment_details": {
+        "invalid_payment_method": "Di-wastong paraan ng pagbabayad",
+        "invalid_payment_method_message": "Gumamit ng bagong credit card para patuloy na makatanggap ng mga paparating na order.",
+        "replace_payment_method": "Palitan ang paraan ng pagbabayad",
+        "checkout_card_banner": "Magagamit lang ang paraan ng pagbabayad na ito para sa mga pre-authorized na pagbabayad. Hindi ito lilitaw sa pag-checkout kung naka-log in ka sa tindahang ito.",
+        "default_checkbox": "Itakda bilang default",
+        "default_checkbox_accessibility_label": "Itakda ang paraan ng pagbabayad na ito bilang default"
+      },
+      "edit_payment_method": {
+        "title": "I-edit ang paraan ng pagbabayad",
+        "save_payment_method_button": "I-save",
+        "cancel_edit_payment_method_button": "Kanselahin",
+        "payment_method_updated_toast": "Na-update ang paraan ng pagbabayad",
+        "billing_address_add_new": "Magdagdag ng bago",
+        "billing_address_choose_from_list": "Pumili sa listahan",
+        "future_purchases_notice": "Ise-save ang paraan ng pagbabayad na ito para sa mga pagbili sa hinaharap.",
+        "generic_error": "Nagkaroon ng problema sa pag-update. Pakisubukang muli."
+      },
+      "card_fields": {
+        "card_number_label": "Numero ng card",
+        "card_number_placeholder": "Numero ng card",
+        "name_on_card_label": "pangalan sa card",
+        "name_on_card_placeholder": "pangalan sa card",
+        "card_expiry_label": "Petsa ng pag-expire (MM \/ YY)",
+        "card_expiry_placeholder": "Petsa ng pag-expire (MM \/ YY)",
+        "card_start_label": "Petsa ng isyu (MM \/ YY)",
+        "card_start_placeholder": "Petsa ng isyu (MM \/ YY)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Karagdagang informasiyon",
+          "card_verification_value_explanation_amex": "4-digit na security code sa harap ng iyong card",
+          "card_verification_value_explanation_other": "3-digit na security code sa likod ng iyong card",
+          "card_verification_value_explanation": "Karaniwang makikita ang 3-digit na security code sa likod ng iyong card. Ang mga American Express card ay may 4 na digit na code na matatagpuan sa harap.",
+          "card_security_notice": "Ang lahat ng mga transaksyon ay ligtas at naka-encrypt."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Ilagay ang iyong pangalan nang eksakto tulad ng nakasulat sa iyong card",
+          "credit_card_number_invalid": "Maglagay ng wastong numero ng card",
+          "credit_card_expiry_invalid": "Maglagay ng wastong petsa ng pag-expire ng card",
+          "credit_card_verification_value_blank": "Ilagay ang CVV o security code sa iyong card"
+        }
+      },
+      "payment_delete": {
+        "title": "Tanggalin ang paraan ng pagbabayad",
+        "description_without_replacement": "Hindi na magiging available ang paraan ng pagbabayad na ito para sa mga pagbili sa hinaharap.",
+        "description_with_replacement": "Ang pagtanggal sa paraan ng pagbabayad na ito ay makakaapekto sa mga preauthorized na pagbabayad. Maaari mo itong opsyonal na palitan ng ibang paraan ng pagbabayad upang patuloy na makatanggap ng mga paparating na order.",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Ang pagtanggal sa paraan ng pagbabayad na ito ay makakaapekto sa mga preauthorized na pagbabayad. Maliban kung pipili ka ng alternatibong paraan ng pagbabayad, ang paraan ng pagbabayad na ito ay sisingilin pa rin para sa anumang natitirang balanse sa mga umiiral nang order. Ang pagpili ng alternatibong paraan ng pagbabayad ay magbibigay-daan sa iyong makatanggap ng paparating na mga order ng subscription nang walang pagkaantala.",
+          "with_pending_orders": "Ang pagtanggal sa paraan ng pagbabayad na ito ay mag-aalis nito sa iyong account at hindi na magiging available para sa mga pagbili sa hinaharap. Maliban kung pipili ka ng alternatibong paraan ng pagbabayad, sisingilin pa rin ito para sa anumang natitirang balanse sa mga umiiral nang order.",
+          "with_subscriptions": "Ang pagtanggal sa paraan ng pagbabayad na ito ay makakaapekto sa mga preauthorized na pagbabayad. Palitan ito ng alternatibong paraan ng pagbabayad para patuloy na makatanggap ng mga paparating na order."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Ang pagtanggal sa paraan ng pagbabayad na ito ay makakaapekto sa mga preauthorized na pagbabayad. Sisingilin pa rin ang paraan ng pagbabayad na ito para sa anumang natitirang balanse sa mga kasalukuyang order, ngunit hindi ka makakatanggap ng mga paparating na order ng subscription. Magdagdag ng alternatibong paraan ng pagbabayad upang patuloy na makatanggap ng mga order ng subscription.",
+          "with_pending_orders": "Ang pagtanggal sa paraan ng pagbabayad na ito ay mag-aalis nito sa iyong account at hindi na magiging available para sa mga pagbili sa hinaharap. Sisingilin pa rin ito para sa anumang natitirang balanse sa mga umiiral nang order.",
+          "with_subscriptions": "Ang pagtanggal sa paraan ng pagbabayad na ito ay makakaapekto sa mga preauthorized na pagbabayad. Magdagdag ng alternatibong paraan ng pagbabayad para patuloy na makatanggap ng mga paparating na order."
+        },
+        "payment_method_selector_placeholder": "Pumili ng kapalit na paraan ng pagbabayad (opsyonal)",
+        "payment_method_selector_no_alternative_payment": "Walang paraan ng kapalit",
+        "replace_method_with_new_method_description": "Ang iyong {{currentPaymentMethodName}} ay tatanggalin at papalitan ng iyong {{newPaymentMethodName}} .",
+        "error_when_deleting": "Humihingi kami ng paumanhin ngunit may nangyaring mali at hindi namin matanggal ang paraan ng pagbabayad na ito. Pakisubukang muli mamaya o i-refresh ang pahina.",
+        "delete_and_replace_button": "Tanggalin at palitan",
+        "delete_and_replace_button_accessibility_label": "Tanggalin ang {{currentPaymentMethodName}} at palitan ng {{newPaymentMethodName}} .",
+        "deleted_successfully": "Matagumpay na natanggal ang paraan ng pagbabayad.",
+        "loading_available_payment_methods_accessibility_label": "Nilo-load ang mga available na paraan ng pagbabayad"
+      },
+      "add_payment_method": {
+        "title": "Magdagdag ng paraan ng pagbabayad",
+        "payment_method_added_confirmation": "Idinagdag ang paraan ng pagbabayad",
+        "billing_address": {
+          "add_billing_address_button": "Magdagdag ng bago",
+          "add_billing_address_button_accessibility_label": "Magdagdag ng bagong billing address",
+          "choose_billing_address_from_list_button": "Pumili sa listahan",
+          "choose_billing_address_from_list_button_accessibility_label": "Pumili ng billing address mula sa listahan",
+          "missing_billing_address_error_message": "Mangyaring tumukoy ng billing address",
+          "default_checkbox": "Itakda bilang default na paraan ng pagbabayad"
+        }
+      }
+    },
+    "payment_method_brands": {
+      "discover": "Matuklasan",
+      "dinersclub": "Diners club",
+      "shoppay": "Bayad sa Tindahan",
+      "storecredit": "Credit sa tindahan"
+    },
+    "shop_policies": {
+      "legal_notice": "Legal na paunawa",
+      "privacy_policy": "Patakaran sa privacy",
+      "refund_policy": "Patakaran sa refund",
+      "shipping_policy": "Patakaran sa Pagpapadala",
+      "subscription_policy": "Patakaran sa subscription",
+      "terms_of_sale": "Mga tuntunin ng pagbebenta",
+      "terms_of_service": "Mga Tuntunin ng Serbisyo"
+    },
+    "ui_components": {
+      "closeNotification": "Isara",
+      "expandNotification": "Tingnan ang higit pa",
+      "closeModal": "Isara",
+      "submit": "Ipasa",
+      "processing": "Pinoproseso…",
+      "increase": "Dagdagan {{type}}",
+      "decrease": "Bawasan ang {{type}}",
+      "minimumReached": "Naabot na ang minimum na {{value}}",
+      "maximumReached": "Naabot na ang maximum na {{value}}",
+      "january": "Enero",
+      "february": "Pebrero",
+      "march": "Marso",
+      "april": "Abril"
+    }
+  },
+  "sections": {
+    "slideshow": {
+      "load_slide": "I-load ang slide",
+      "previous_slideshow": "Nakaraang slide",
+      "next_slideshow": "Susunod na slide",
+      "pause_slideshow": "I-pause ang slideshow",
+      "play_slideshow": "I-play ang slideshow"
+    },
+    "page": {
+      "title": "Pamagat ng pahina"
+    },
+    "quick_order_list": {
+      "product_total": "Subtotal ng produkto",
+      "view_cart": "Tingnan ang cart",
+      "each": "{{ money }} \/ea",
+      "product": "produkto",
+      "variant_total": "Kabuuan ng variant",
+      "items_added": {
+        "one": "{{ quantity }} item na idinagdag",
+        "other": "{{ quantity }} item ang idinagdag"
+      },
+      "items_removed": {
+        "one": "{{ quantity }} item ang inalis",
+        "other": "{{ quantity }} item ang inalis"
+      },
+      "product_variants": "Mga variant ng produkto",
+      "total_items": "Kabuuang mga item",
+      "remove_all_single_item_confirmation": "Alisin ang 1 item sa iyong cart?",
+      "remove_all_items_confirmation": "Alisin ang lahat ng {{ quantity }} item mula sa iyong cart?",
+      "remove_all": "Alisin lahat",
+      "cancel": "Kanselahin",
+      "min_error": "Ang item na ito ay may minimum na {{ min }}",
+      "max_error": "Ang item na ito ay may maximum na {{ max }}",
+      "step_error": "Maaari mo lamang idagdag ang item na ito sa mga dagdag na {{ step }}"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_heading": "Ipasok ang tindahan gamit ang password:",
+      "login_password_button": "Ipasok gamit ang password",
+      "login_form_password_placeholder": "Ang iyong password",
+      "login_form_error": "Maling password!",
+      "login_form_submit": "Pumasok",
+      "admin_link_html": "Ikaw ba ang may-ari ng tindahan? <a href=\"\/admin\" class=\"link underlined-link\">Mag-login dito<\/a>",
+      "powered_by_shopify_html": "Ang tindahan na ito ay papaganahin ng {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Ibahagi sa Facebook",
+        "share_on_twitter": "Ibahagi sa X",
+        "share_on_pinterest": "I-pin sa Pinterest"
+      }
+    },
+    "continue_shopping": "Ipagpatuloy ang pamimili",
+    "pagination": {
+      "label": "Pagbilang ng pahina",
+      "page": "{{ number }}",
+      "next": "Susunod na pahina",
+      "previous": "Nakaraang pahina"
+    },
+    "search": {
+      "search": "Maghanap",
+      "reset": "I-clear ang termino para sa paghahanap"
+    },
+    "cart": {
+      "view": "Tingnan ang cart ( {{ count }} )",
+      "view_empty_cart": "Tingnan ang cart",
+      "item_added": "Idinagdag ang item sa iyong cart"
+    },
+    "share": {
+      "copy_to_clipboard": "Kopyahin ang link",
+      "success_message": "Nakopya ang link sa clipboard"
+    },
+    "slider": {
+      "of": "ng",
+      "next_slide": "I-slide pakanan",
+      "previous_slide": "Slide pakaliwa"
+    }
+  },
+  "newsletter": {
+    "success": "Salamat sa pag-subscribe",
+    "button_label": "Mag-subscribe"
+  },
+  "accessibility": {
+    "skip_to_text": "Lumaktaw sa nilalaman",
+    "skip_to_product_info": "Lumaktaw sa impormasyon ng produkto",
+    "close": "Isara",
+    "unit_price_separator": "bawat",
+    "refresh_page": "Ang pagpili ng isang pagpipilian ay nagreresulta sa isang buong pag-refresh ng pahina.",
+    "link_messages": {
+      "new_window": "Nagbubukas sa bagong window.",
+      "external": "Nagbubukas ng panlabas na website."
+    },
+    "loading": "Naglo-load...",
+    "total_reviews": "kabuuang mga pagsusuri",
+    "star_reviews_info": "{{ rating_value }} sa {{ rating_max }} star",
+    "collapsible_content_title": "Nako-collapse na content",
+    "complementary_products": "Mga pantulong na produkto"
+  },
+  "blogs": {
+    "article": {
+      "read_more_title": "Magbasa nang higit pa: {{ title }}",
+      "comments": {
+        "one": "{{ count }} komento",
+        "other": "{{ count }} komento"
+      },
+      "moderated": "Pakitandaan, kailangang maaprubahan ang mga komento bago ito mai-publish.",
+      "comment_form_title": "Mag-iwan ng komento",
+      "name": "Pangalan",
+      "message": "Magkomento",
+      "post": "Mag-post ng komento",
+      "back_to_blog": "Bumalik sa blog",
+      "share": "Ibahagi ang artikulong ito",
+      "success": "Ang iyong komento ay matagumpay na nai-post! Salamat!",
+      "success_moderated": "Matagumpay na nai-post ang iyong komento. I-publish namin ito sa ilang sandali, dahil ang aming blog ay moderated."
+    }
+  },
+  "onboarding": {
+    "product_title": "Halimbawa ng pamagat ng produkto",
+    "collection_title": "Pangalan ng iyong koleksyon"
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Idagdag sa cart",
+      "choose_options": "Pumili ng mga opsyon"
+    }
   }
 }
