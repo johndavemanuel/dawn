@@ -632,7 +632,12 @@
         "physical_gift_card_invalid_code": "Di-wasto ang code ng pisikal na gift card.",
         "email_blank": "Maglagay ng email",
         "phone_blank": "Maglagay ng numero ng telepono",
-        "address_country_invalid": "Pumili ng bansa\/rehiyon mula sa listahan"
+        "address_country_invalid": "Pumili ng bansa\/rehiyon mula sa listahan",
+        "address_zip_invalid": "Maglagay ng wastong ZIP \/ postal code",
+        "gift_card_invalid": "Ang gift card na \"••••%{last_four_characters}\" ay hindi na wasto",
+        "vaulting_agreement_blank": "Dapat na i-save ang iyong card dahil ang pagbabayad para sa balanse ng order na ito ay dapat bayaran sa ibang pagkakataon.",
+        "sms_marketing_phone_invalid": "Maglagay ng wastong numero ng telepono",
+        "address_suggestion_did_you_mean_html": "Ang ibig mo bang sabihin ay %{html}?"
       },
       "processing": {
         "you_will_not_be_charged": "Hindi ka pa sisingilin",
@@ -646,7 +651,21 @@
           "no_auto_refresh_html": "Kung hindi ka awtomatikong na-redirect, %{link}.",
           "refresh_this_page": "i-refresh ang page na ito"
         },
-        "action_required": "Kinakailangan ang pagkilos"
+        "action_required": "Kinakailangan ang pagkilos",
+        "redirecting_page_title": "Nire-redirect…",
+        "redirecting_title": "Nire-redirect…",
+        "redirecting_notice": "Maghintay habang nire-redirect ka namin.",
+        "redirecting_to_bank": "Nire-redirect sa {{bank}}",
+        "complete_your_purchase_title": "Kumpletuhin ang iyong pagbili",
+        "continue_to_payment_gateway_notice": "Magpatuloy sa pagbabayad upang idagdag ang iyong impormasyon sa pagbabayad.",
+        "continue_to_payment_gateway_button_label": "Magpatuloy sa pagbabayad",
+        "complete_your_purchase_title_error": "Itama ang iyong impormasyon sa pagbabayad",
+        "continue_to_payment_gateway_notice_error": "Hindi ma-verify ang iyong impormasyon sa pagbabayad.",
+        "continue_to_payment_gateway_button_label_error": "I-update ang impormasyon sa pagbabayad",
+        "page_title": "Pinoproseso ang order",
+        "title": "Pinoproseso ang order",
+        "your_order_has_been_received_title": "Salamat sa iyong order",
+        "you_will_receive_confirmation": "Marami kaming natatanggap na order ngayon. Dapat kang makatanggap ng kumpirmasyon sa pamamagitan ng email o text sa lalong madaling panahon. Kung hindi mo ito matatanggap sa susunod na oras, ipaalam sa amin."
       },
       "failed_payment": {
         "page_title": "Hindi maproseso ang pagbabayad",
@@ -1492,6 +1511,107 @@
           }
         },
         "alternative_payment_currency_total": "Siningil bilang %{amount_due}"
+      },
+      "store_credit_errors": {
+        "generic_error": "Nagkaroon ng problema sa iyong credit sa tindahan. Subukang muli o i-reload ang pahina."
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Nailapat na ang gift card sa iyong order",
+          "insufficient_funds": "Ang gift card na ito ay walang natitirang pondo",
+          "expired": "Nag-expire na ang gift card na ito",
+          "not_available": "Hindi na available ang gift card na ito",
+          "invalid": "Maglagay ng wastong gift card",
+          "currency_mismatch": "Tanging mga gift card sa %{shop_currency} ang tinatanggap",
+          "generic": "Hindi maidagdag ang gift card sa pag-checkout",
+          "throttle_limit_exceeded": "Lumampas ka sa maximum na bilang ng mga pagtatangka. Subukan ulit mamaya.",
+          "no_longer_available": "Hindi na magagamit ang gift card na ito sa pag-checkout na ito"
+        }
+      },
+      "payment_errors": {
+        "amount_too_small": "Ang minimum na halaga ng pagbabayad ay dapat na mas mataas sa $0.50 USD. Pakisubukang muli gamit ang mas mataas na halaga.",
+        "method_not_available": "Hindi available ang hiniling na paraan ng pagbabayad.",
+        "available_methods_updated": "Na-update na ang mga available na paraan ng pagbabayad.",
+        "generic_error": "Nagkaroon ng isyu sa pagproseso ng iyong pagbabayad. Subukang muli o gumamit ng ibang paraan ng pagbabayad.",
+        "rejected_transaction": "Tinanggihan ang iyong pagbabayad. Subukang muli o gumamit ng ibang paraan ng pagbabayad.",
+        "credit_card_processing": "Hindi maproseso ang iyong pagbabayad para sa mga teknikal na kadahilanan. Subukang muli sa loob ng ilang minuto o gumamit ng ibang paraan ng pagbabayad.",
+        "checkout_amount_changed": "Hindi maproseso ang iyong pagbabayad dahil nagbago ang halagang dapat bayaran sa pag-checkout. Pakisuri ang iyong order at subukang muli.",
+        "deferred_payment_not_allowed": "Hindi pinapayagan ang mga ipinagpaliban na pagbabayad. Pakisuri ang iyong order at subukang muli.",
+        "deferred_payment_required": "Ang order na ito ay nangangailangan ng isang ipinagpaliban na pagbabayad. Pakisuri ang iyong order at subukang muli.",
+        "deferred_amount_changed": "Hindi maproseso ang iyong pagbabayad dahil nagbago ang halaga ng ipinagpaliban na pagbabayad. Pakisuri ang iyong order at subukang muli.",
+        "deferred_date_changed": "Hindi maproseso ang iyong pagbabayad dahil nagbago ang petsa ng ipinagpaliban na pagbabayad. Pakisuri ang iyong order at subukang muli.",
+        "order_total_changed": "Nagbago ang kabuuan ng iyong order. Suriin at subukang muli.",
+        "payment_processing": "Hindi maproseso ang iyong pagbabayad para sa mga teknikal na kadahilanan. Subukang muli o gumamit ng ibang paraan ng pagbabayad.",
+        "payment_processing_no_retry": "Hindi maproseso ang iyong pagbabayad para sa mga teknikal na kadahilanan. Mangyaring sumubok ng ibang paraan ng pagbabayad.",
+        "paypal_zero_amount": "Hindi mo magagamit ang PayPal para sa %{amount} order. Kumpirmahin na tama ang iyong order at mag-check out nang walang PayPal.",
+        "paypal_invalid_token": "Hindi available ang PayPal. Subukang muli o gumamit ng ibang opsyon sa pag-checkout.",
+        "pay_later_failed": "Nagkaroon ng error sa pagproseso ng iyong pagbabayad gamit ang Pay mamaya. Pumili ng ibang paraan ng pagbabayad at subukang muli.",
+        "three_d_secure_failed": "Hindi ma-verify ang iyong pagbabayad. Subukang muli o gumamit ng ibang paraan ng pagbabayad.",
+        "three_d_secure_failed_duplicate": "Nabigo ang 3D Secure na pag-authenticate ng credit card dahil may isa pang ginagawa.",
+        "three_d_secure_throttled": "Masyadong maraming mga pagtatangka; mangyaring maghintay bago subukan muli",
+        "subscription_agreement_blank": "Para makabili ng subscription, kailangang i-save ang mga detalye ng iyong pagbabayad. Upang magpatuloy, kumpirmahin na sumasang-ayon ka o alisin ang mga item sa subscription sa iyong order.",
+        "insufficient_funds": "Tinanggihan ang iyong pagbabayad dahil sa hindi sapat na pondo. Subukang muli o gumamit ng ibang paraan ng pagbabayad.",
+        "multiple_deferred_payment_not_allowed": "Isang ipinagpaliban na pagbabayad lamang ang pinapayagan sa bawat kahilingan. Pakisuri ang iyong kahilingan at subukang muli.",
+        "shipping_must_match_billing": "Ang billing address ay dapat tumugma sa shipping address. Mangyaring gumamit ng ibang paraan ng pagbabayad.",
+        "decision_rule_block": "Nagkaroon ng isyu sa pagproseso ng iyong pagbabayad. Mangyaring makipag-ugnayan sa may-ari ng tindahan.",
+        "pick_up_card": "Ang inyong card ay tinanggihan. Subukang muli o gumamit ng ibang paraan ng pagbabayad.",
+        "cannot_verify": "Hindi ma-verify ang iyong mga detalye sa pagbabayad. Tingnan ang mga detalye ng iyong card at subukang muli.",
+        "invalid_number": "Maglagay ng wastong numero ng card",
+        "invalid_expiry_date": "Maglagay ng wastong petsa ng pag-expire",
+        "invalid_cvc": "Maglagay ng wastong security code",
+        "expired_card": "Nag-expire na ang iyong card. Gumamit ng ibang paraan ng pagbabayad.",
+        "card_declined": "Ang inyong card ay tinanggihan. Subukang muli o gumamit ng ibang paraan ng pagbabayad.",
+        "processing_error": "Nagkaroon ng isyu sa pagproseso ng iyong pagbabayad. Subukang muli o gumamit ng ibang paraan ng pagbabayad.",
+        "processing_error_checkout_as_guest": "Nagkaroon ng isyu sa pagproseso ng iyong pagbabayad. Subukang muli gamit ang ibang paraan ng pagbabayad o {{checkout_as_guest_link}} .",
+        "selected_payment_method": "Nagkaroon ng isyu sa iyong napiling paraan ng pagbabayad at hindi ka pa nasingil. Subukang muli o gumamit ng ibang paraan ng pagbabayad.",
+        "payment_method_billing_address": "Nagkaroon ng isyu sa billing address ng iyong napiling paraan ng pagbabayad at hindi ka pa nasingil. Tingnan ang address at subukang muli o gumamit ng ibang paraan ng pagbabayad.",
+        "call_issuer": "Ang inyong card ay tinanggihan. Gumamit ng ibang paraan ng pagbabayad o makipag-ugnayan sa iyong bangko para sa higit pang impormasyon.",
+        "test_mode_live_card": "Ang tindahan na ito ay hindi maaaring tumanggap ng mga tunay na order o tunay na pagbabayad.",
+        "transient_error": "Nagkaroon ng problema sa pagproseso ng iyong pagbabayad. Subukang i-refresh ang page na ito o tingnan ang iyong koneksyon sa internet.",
+        "missing_shipping_address": "Hindi maproseso ang iyong bayad dahil nawawala ang iyong address sa pagpapadala. Magdagdag ng address sa pagpapadala at subukang muli.",
+        "invalid_shipping_address": "Hindi maproseso ang iyong bayad dahil hindi namin mahanap ang iyong address sa pagpapadala. Tingnan ang iyong address sa pagpapadala at subukang muli.",
+        "successful_offsite_with_gift_card_error": "Nagkaroon ng isyu sa pagproseso ng iyong pagbabayad sa gift card. Subukang muli o gumamit ng ibang paraan ng pagbabayad.",
+        "development_store_order_limit_reached": "Naabot mo na ang limitasyon para sa mga order ng development store gamit ang payment processor na ito. Upang maglagay ng isa pang order, kakailanganin mong gumamit ng gateway ng pagsubok sa pagbabayad. Matuto nang higit pa tungkol sa %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Upang maglagay ng isang pagsubok na order, kakailanganin mong gumamit ng isang pagsubok na gateway ng pagbabayad. Matuto nang higit pa tungkol sa %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "pagsubok ng mga order sa mga development store",
+        "payment_above_threshold": "Ang halaga ng pagbabayad ay lampas sa limitasyon ng pera para sa rehiyong ito. Bawasan ang kabuuan at subukang muli"
+      },
+      "shipping_errors": {
+        "shipping_method": "Nagbago ang mga opsyon sa pagpapadala para sa iyong order. Suriin ang iyong pinili at subukang muli.",
+        "shipping_method_not_available": "Ang iyong cart ay na-update at ang mga item na iyong idinagdag ay hindi maaaring ipadala sa iyong address. Alisin ang mga item para makumpleto ang iyong order.",
+        "shipping_method_not_available_generic": {
+          "one": "Ang iyong order ay hindi maaaring ipadala sa napiling address. Suriin ang iyong address upang matiyak na tama ito at subukang muli, o pumili ng ibang address.",
+          "other": "Ang ilang mga item sa iyong cart ay hindi maaaring ipadala sa address na iyong inilagay. Suriin ang iyong address upang matiyak na tama ito at subukang muli, o pumili ng ibang address."
+        },
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Ang mga item sa cart ay hindi nakakatugon sa mga kinakailangan sa presyo o timbang upang maging kwalipikado para sa pagpapadala. I-update ang iyong cart at subukang muli.",
+        "shipping_method_not_available_updated": {
+          "one": "Ang item na iyong idinagdag ay hindi nagpapadala sa iyong lokasyon. Alisin ito upang tingnan, o makipag-ugnayan sa tindahan.",
+          "other": "Ang isa o higit pang mga item na iyong idinagdag ay hindi ipapadala sa iyong lokasyon. Alisin ang mga ito upang mag-check out, o makipag-ugnayan sa tindahan."
+        },
+        "payment_method_not_supported": "Hindi mo magagamit ang paraan ng pagbabayad na ito para sa %{country}. Mangyaring gumamit ng ibang paraan ng pagbabayad para ipadala sa bansang ito.",
+        "empty_state": "Ilagay ang iyong address sa pagpapadala upang tingnan ang mga available na paraan ng pagpapadala.",
+        "title": "Hindi available ang pagpapadala"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Express Checkout",
+        "or": "O",
+        "or_pay_another_way": "O magbayad sa ibang paraan",
+        "or_check_out_another_way": "O tingnan ang ibang paraan",
+        "or_pay_with_credit_card": "O magbayad gamit ang credit card",
+        "show_more_options": "Magpakita ng higit pang mga opsyon",
+        "hide_more_options": "Itago ang higit pang mga opsyon"
+      },
+      "post_purchase": {
+        "page_title": "Pagkatapos ng pagbili",
+        "title": "Pagkatapos ng pagbili",
+        "escape_confirmation": "Nabayaran mo na ang iyong order.",
+        "escape_action": "Tingnan ang kumpirmasyon ng order ›",
+        "components": {
+          "close": "Isara",
+          "expand": "Tingnan ang higit pa",
+          "processing": "Pinoproseso…",
+          "submit": "Ipasa"
+        }
       }
     },
     "pagination": {
