@@ -567,6 +567,111 @@
             "subtotal_limit_reached": "Naabot na ang maximum na halaga ng mga line item."
           }
         }
+      },
+      "contact": {
+        "state_label": "Estado",
+        "state_placeholder": "Estado",
+        "region_label": "Rehiyon",
+        "region_placeholder": "Rehiyon",
+        "region_none": "Walang napili",
+        "governorate_label": "Gobernadora",
+        "governorate_placeholder": "Gobernadora",
+        "emirate_label": "emirate",
+        "emirate_placeholder": "emirate",
+        "state_and_territory_label": "Estado\/teritoryo",
+        "state_and_territory_placeholder": "Estado\/teritoryo",
+        "phone_label": "Telepono",
+        "optional_phone_label": "Telepono (opsyonal)",
+        "phone_placeholder": "Telepono",
+        "phone_tooltip": "Kung sakaling kailangan naming makipag-ugnayan sa iyo tungkol sa iyong order",
+        "optional_zip_code_label": "ZIP code (opsyonal)",
+        "optional_postal_code_label": "Postal code (opsyonal)",
+        "optional_postcode_label": "Postcode (opsyonal)",
+        "pincode_label": "Pin code",
+        "optional_pincode_label": "PIN code (opsyonal)",
+        "pincode_placeholder": "Pin code",
+        "civic_number_warning": "Magdagdag ng numero ng bahay kung mayroon ka",
+        "optional_last_name_label": "Apelyido (opsyonal)",
+        "different_shipping_address_label": "Ipadala sa ibang lugar",
+        "different_shipping_address_text": "Gumamit ng isang beses na address para sa order na ito",
+        "change_company_location_link_label": "Baguhin ang lokasyon ng kumpanya",
+        "change_location_link_label": "Baguhin ang lokasyon",
+        "ship_to_company": "Ipadala sa {{companyName}}"
+      },
+      "delivery_options": {
+        "free_total_label": "Libre",
+        "ship": "barko",
+        "ship_to_address": "Ipadala sa address",
+        "shipping_address": "Address ng pagpapadala",
+        "pick_up": "Pulutin",
+        "pick_up_from_store": "Pickup sa tindahan",
+        "pick_up_locations": "Mga lokasyon ng tindahan",
+        "pick_up_in_one_hour": "Karaniwan handa sa loob ng 1 oras",
+        "pick_up_in_two_hours": "Karaniwan handa sa loob ng 2 oras",
+        "pick_up_in_four_hours": "Karaniwan handa sa loob ng 4 na oras",
+        "pick_up_in_twenty_four_hours": "Karaniwang handa sa loob ng 24 na oras",
+        "pick_up_in_two_to_four_days": "Karaniwan handa sa 2-4 na araw",
+        "pick_up_in_five_or_more_days": "Karaniwang handa sa loob ng 5+ araw",
+        "pick_up_in_zero_to_two_hours": "Handa nang kunin sa loob ng 2 oras",
+        "pick_up_in_two_to_four_hours": "Handa nang kunin sa loob ng 4 na oras",
+        "pick_up_immediately": "Handa na para sa pickup ngayon",
+        "pick_up_next_day": "Handa nang kunin sa susunod na araw",
+        "pickup_point_method_definition": "Ipadala sa pickup point",
+        "retail_method_definition": "Tingiang pagpapadala",
+        "none_method_definition": "Walang pagpapadala",
+        "subscription_pickup_information": "Malalapat ang paraan ng paghahatid na ito sa lahat ng item sa order na ito at sa lahat ng mga order sa hinaharap para sa subscription na ito."
+      },
+      "customer_account": {
+        "not_user_label": "Hindi %{first_name}?",
+        "have_an_account_label": "May account?",
+        "sign_in_link_label": "Mag log in",
+        "save_my_information_label": "I-save ang impormasyong ito para sa susunod na pagkakataon",
+        "invalid_address": "Ang napiling address ay hindi wasto. %{update_address_link} o pumili ng ibang address.",
+        "incomplete_address": "Hindi kumpleto ang napiling address. %{update_address_link} o pumili ng ibang address.",
+        "invalid_shipping_method_summary": "Pumili ng wastong address sa pagpapadala upang makita ang mga available na paraan ng pagpapadala",
+        "saved_address_option_description": {
+          "one": "Mayroon kang {{count}} na naka-save na address.",
+          "other": "Mayroon kang {{count}} na mga naka-save na address."
+        },
+        "saved_address_option_link": "Gumamit ng naka-save na address",
+        "saved_address_modal_title": "Gamitin ang aking naka-save na address"
+      },
+      "stock": {
+        "page_title": "Mga isyu sa imbentaryo",
+        "items_unavailable_notice": "Ang ilang mga item ay hindi na magagamit.",
+        "product_column_header": "Mga produkto",
+        "quantity_column_header": "Dami",
+        "price_column_header": "Presyo",
+        "status_column_header": "Katayuan",
+        "removed_from_cart_notice": "Inalis sa cart",
+        "sold_out_label": "Ubos na",
+        "reduced_label": "Nabawasan",
+        "reduced_with_quantity_label": "%{quantity_available} na lang ang natitira",
+        "remove_from_cart_button_label": "Alisin sa cart",
+        "continue_shopping_button_label": "Magpatuloy",
+        "go_back_to_cart_button_label": "Bumalik ka sa cart ko",
+        "remove": "Alisin",
+        "return_to_store_label": "Bumalik sa tindahan",
+        "continue_cta_label": "Ipagpatuloy ang pag-checkout",
+        "item_label": {
+          "one": "{{count}} item",
+          "other": "{{count}} na mga item"
+        },
+        "empty_cart_label": "Walang laman ang iyong cart",
+        "quantity_update": {
+          "page_title": "Dami ng update",
+          "title": "Dami ng update",
+          "description": "Ang mga available na dami para sa mga item na ito ay nagbago at na-update sa iyong cart."
+        },
+        "unpurchasable_product": {
+          "title": "Hindi mabibiling produkto",
+          "header": "Inalis ang ilang item sa iyong cart",
+          "message": "Ang mga item na ito ay hindi magagamit para sa mga B2B na order.",
+          "status_column_header": "Hindi magagamit"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Hindi mabibiling produkto"
+        }
       }
     },
     "pagination": {
