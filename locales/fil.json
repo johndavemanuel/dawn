@@ -239,6 +239,273 @@
         "address_neighborhood_too_long": "Masyadong mahaba ang kapitbahayan (ang maximum ay {{count}} na mga character)",
         "address_neighborhood_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang kapitbahayan",
         "address_neighborhood_contains_html_tags": "Ang kapitbahayan ay hindi maaaring maglaman ng mga HTML na tag."
+      },
+      "processing": {
+        "you_will_not_be_charged": "Hindi ka pa sisingilin",
+        "wait": {
+          "short": "Pinoproseso ang iyong order.",
+          "medium": {
+            "one": "Pinoproseso ang iyong order. Ang tinantyang oras ng paghihintay ay %{count} minuto.",
+            "other": "Pinoproseso ang iyong order. Ang tinantyang oras ng paghihintay ay %{count} (na) minuto."
+          },
+          "long": "Makakatanggap ka ng email sa sandaling maproseso ang iyong order. Sa kasalukuyan ay may mataas na dami ng mga order.",
+          "no_auto_refresh_html": "Kung hindi ka awtomatikong na-redirect, %{link}.",
+          "refresh_this_page": "i-refresh ang page na ito"
+        },
+        "action_required": "Kinakailangan ang pagkilos"
+      },
+      "failed_payment": {
+        "page_title": "Hindi maproseso ang pagbabayad",
+        "title": "Hindi maproseso ang pagbabayad",
+        "payment_not_processed_title": "Hindi maproseso ang iyong bayad",
+        "payment_not_processed_text": "Hindi ka nasingil. Bumalik sa iyong cart upang kumpletuhin ang iyong pagbili.",
+        "return_to_cart_button_label": "Bumalik sa cart"
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Deposito sa bangko",
+        "money_order_label": "Utos ng Pera",
+        "deferred_payment_label": "Pumili ng paraan ng pagbabayad sa ibang pagkakataon",
+        "fixed_payment_label": "Ang iyong pagbabayad ay dapat bayaran sa {{dueDate}} .",
+        "generic_payment_terms": "Ikaw ay nasa {{translatedName}} na mga tuntunin. Ang iyong pagbabayad ay dapat bayaran sa {{dueDate}} .",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} sa isang account na may access sa lokasyong ito upang magdagdag o gumamit ng mga naka-save na paraan ng pagbabayad.",
+            "link": "Mag log in"
+          }
+        },
+        "direct_payment_terms": "Ikaw ay nasa {{translatedName}} na mga tuntunin. Sisingilin ang iyong card sa {{dueDate}} .",
+        "fixed_direct_payment_terms": "Sisingilin ang iyong card sa {{dueDate}} .",
+        "order_due_on_fulfillment_choose_later": "Ang iyong pagbabayad ay dapat bayaran kapag ang iyong order ay natupad.",
+        "order_due_on_fulfillment_payment": "Sisingilin ang iyong card kapag natupad na ang iyong order.",
+        "order_due_on_receipt_choose_later": "Ang iyong pagbabayad ay dapat bayaran sa resibo.",
+        "order_deposit_due_now": "{{depositAmount}} ay dapat bayaran ngayon. Ang balanse ay nasa {{translatedName}} na mga tuntunin at dapat bayaran sa {{dueDate}} .",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} ay dapat bayaran ngayon. Ang balanse ay dapat bayaran sa sandaling matupad ang iyong order.",
+        "draft_order_payment_due_later_no_terms": "Ang iyong pagbabayad ay dapat bayaran kapag nakumpirma na ang iyong order.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Sisingilin ang iyong card kapag nakumpirma na ang iyong order.",
+        "draft_order_payment_due_later_terms": "Mapupunta ka sa mga tuntunin ng {{translatedName}} kapag nakumpirma na ang iyong order.",
+        "draft_order_payment_due_on_fulfillment": "Ang iyong pagbabayad ay dapat bayaran kapag ang iyong order ay nakumpirma at natupad."
+      },
+      "thank_you": {
+        "title": "Salamat sa iyong pagbili!",
+        "confirmation_email_sent_text": "Isang email ng kumpirmasyon ang ipinadala sa %{email}",
+        "return_to_store_link_label": "Ipagpatuloy ang pamimili",
+        "print_link_label": "I-print ang resibo",
+        "payment_information_title": "Impormasyon sa Pagbabayad",
+        "shipping_information_title": "Impormasyon ng Pagpapadala",
+        "page_title": "Salamat, %{display_name}!",
+        "page_title_no_name": "Salamat!",
+        "cancelled_page_title": "Kinansela ang order",
+        "failed_pending_payment_page_title": "May problema sa iyong pagbabayad",
+        "customer_information_title": "Mga detalye ng order",
+        "contact_information_title": "Impormasyon sa pakikipag-ugnayan",
+        "company_location_title": "Lokasyon",
+        "shipping_address_title": "Address ng pagpapadala",
+        "shipping_address_map_title": "Google map na nagpapakita ng pin point ng shipping address: %{address}",
+        "payment_method_title": "Paraan ng Pagbayad",
+        "shipping_method_title": "Pamamaraan ng Pagpapadala",
+        "tracking_number": "Bilang na palatandaan:",
+        "estimated_arrival": "Tinantyang petsa ng paghahatid: ",
+        "estimated_delivery": "Kasalukuyang pagtatantya ng paghahatid: ",
+        "re-order": "Muling i-order ang parehong mga item",
+        "confirmed": "Nakumpirma",
+        "gift_card_confirmation_by_text": "Kung hindi mo ito natanggap, ipadala muli ang text o makipag-ugnayan sa amin.",
+        "gift_card_confirmation_by_email": "Kung hindi mo ito natanggap, ipadala muli ang email o makipag-ugnayan sa amin.",
+        "gift_card_title": "Mga gift card",
+        "resend_gift_cards": "Muling ipadala ang mga gift card",
+        "thank_you_title": "Nakumpirma ang iyong order",
+        "thank_you_title_payment": "Nakumpirma ang iyong pagbabayad",
+        "thank_you_title_review": "Ang iyong order ay naisumite para sa pagsusuri",
+        "thank_you_title_payments_app_pending_default": "Pinoproseso ang iyong bayad",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Natanggap ang iyong order",
+        "thank_you_title_payments_app_failed_pending_payment": "Hindi maproseso ang iyong bayad",
+        "thank_you_confirmed_order_with_email": "Makakatanggap ka ng email ng kumpirmasyon kasama ang iyong numero ng order sa ilang sandali.",
+        "thank_you_confirmed_order_with_phone": "Makakatanggap ka ng text ng kumpirmasyon kasama ang iyong numero ng order sa ilang sandali.",
+        "thank_you_confirmed_order_with_email_and_phone": "Makakatanggap ka ng email ng kumpirmasyon kasama ang iyong numero ng order sa ilang sandali.",
+        "thank_you_confirmed_order_with_email_payment": "Nagbayad ka sa iyong order %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Nagbayad ka sa iyong order %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Nagbayad ka sa iyong order %{date}.",
+        "thank_you_confirmed_order_with_email_pick_up": "Makakatanggap ka ng email kapag handa na para sa pickup ang iyong order.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Makakatanggap ka ng text kapag handa na para sa pickup ang iyong order.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Makakatanggap ka ng email kapag handa na para sa pickup ang iyong order.",
+        "thank_you_confirmed_order_with_missing": "Makipag-ugnayan sa amin sa pamamagitan ng email o telepono para makatanggap ng kumpirmasyon ng order.",
+        "thank_you_confirmed_order_with_missing_payment": "Makipag-ugnayan sa amin sa pamamagitan ng email o telepono para makatanggap ng kumpirmasyon ng order.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Makipag-ugnayan sa amin sa pamamagitan ng email o telepono para makatanggap ng kumpirmasyon ng order.",
+        "thank_you_confirmed_order_with_draft": "Ipapaalam namin sa iyo kung kailangan namin ng higit pang impormasyon o kapag nakumpirma na ang iyong order.",
+        "thank_you_confirmed_order_with_draft_payment": "Ipapaalam namin sa iyo kung kailangan namin ng higit pang impormasyon o kapag nakumpirma na ang iyong order.",
+        "thank_you_confirmed_order_with_draft_pick_up": "Ipapaalam namin sa iyo kung kailangan namin ng higit pang impormasyon o kapag nakumpirma na ang iyong order.",
+        "thank_you_payments_app_failed_pending_payment": "Hindi ka siningil para sa iyong order. Bumalik sa iyong cart para suriin ang iyong order at magbayad muli.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Hindi ka siningil para sa iyong order. Bumalik sa iyong cart para suriin ang iyong order at magbayad muli.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "Hindi ka siningil para sa iyong order. Bumalik sa iyong cart para suriin ang iyong order at magbayad muli.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "Makipag-ugnayan sa amin sa pamamagitan ng email o telepono para makatanggap ng kumpirmasyon ng order.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Makipag-ugnayan sa amin sa pamamagitan ng email o telepono para makatanggap ng kumpirmasyon ng order.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Makipag-ugnayan sa amin sa pamamagitan ng email o telepono para makatanggap ng kumpirmasyon ng order.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Makakatanggap ka ng email ng kumpirmasyon kasama ang iyong numero ng order sa ilang sandali.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Makakatanggap ka ng email ng kumpirmasyon kasama ang iyong numero ng order sa ilang sandali.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Makakatanggap ka ng email ng kumpirmasyon kasama ang iyong numero ng order sa ilang sandali.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "Makakatanggap ka ng email ng kumpirmasyon kasama ang iyong numero ng order sa ilang sandali.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Makakatanggap ka ng email ng kumpirmasyon kasama ang iyong numero ng order sa ilang sandali.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Makakatanggap ka ng email ng kumpirmasyon kasama ang iyong numero ng order sa ilang sandali.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Makakatanggap ka ng text ng kumpirmasyon kasama ang iyong numero ng order sa ilang sandali.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Makakatanggap ka ng text ng kumpirmasyon kasama ang iyong numero ng order sa ilang sandali.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Makakatanggap ka ng text ng kumpirmasyon kasama ang iyong numero ng order sa ilang sandali.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Makipag-ugnayan sa amin sa pamamagitan ng email o telepono para makatanggap ng kumpirmasyon ng order."
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Nagkaroon ng isyu sa pagproseso ng iyong kahilingan, mangyaring makipag-ugnayan sa may-ari ng tindahan."
+      },
+      "no_address_location": {
+        "title": "Lokasyon na walang address",
+        "header": "Wala kang address sa pagpapadala para sa lokasyong ito",
+        "alt_header": "Nawawala ang address ng pagpapadala",
+        "message": "Makipag-ugnayan sa amin upang magdagdag ng address para sa lokasyong ito upang makumpleto ang pag-checkout.",
+        "email_us_button_label": "Padalhan kami ng email"
+      },
+      "order_errors": {
+        "creation_failure": "Nagkaroon ng isyu sa paggawa ng iyong order. Subukang muli, o makipag-ugnayan sa amin para sa higit pang mga detalye.",
+        "network_failure": "Hindi maisumite ang iyong order dahil sa isang error sa network. Suriin ang iyong koneksyon at subukang muli.",
+        "inventory_reservation_failure": "Ang ilang mga item ay hindi na magagamit."
+      },
+      "session_errors": {
+        "session_not_unique": "Nagkaroon ng problema sa pagproseso ng iyong order. I-refresh ang page na ito para bumalik sa store.",
+        "session_already_finished": "Naisumite na ang order na ito. Maaari kang bumalik sa tindahan upang magsimula ng bagong order."
+      },
+      "pickup_point": {
+        "location_is_currently_closed": "sarado",
+        "business_hours": "Mga oras ng pagbubukas",
+        "no_business_hours": "Walang available na oras ng pagbubukas",
+        "open_twenty_four_hours": "Bukas 24\/7",
+        "or": "o",
+        "search_button": "Maghanap",
+        "selector_tabs": "Tagapili ng pickup point",
+        "selector_tab_map": "Mapa",
+        "selector_tab_list": "Listahan",
+        "could_not_resolve_address": "Hindi mahanap ang iyong address. Subukang muli o gumamit ng ibang address",
+        "no_pickup_points_near_you": "Walang nakitang mga pickup point malapit sa napiling address",
+        "no_pickup_points_near_location": "Walang nakitang mga pickup point malapit sa iyong lokasyon",
+        "no_pickup_points_found": "Walang nakitang mga pickup point",
+        "paginator": {
+          "next_accessibility_label": "Susunod na pahina",
+          "previous_accessibility_label": "Nakaraang pahina",
+          "header": {
+            "one": "Ipinapakita ang %{first} - %{last} ng %{count} point",
+            "other": "Ipinapakita ang %{first} - %{last} ng %{count} na puntos"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} ng %{count} point",
+            "other": "%{pickup_point_index} ng %{count} puntos"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} ng %{count} point"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} pickup point malapit sa iyong lokasyon",
+          "other": "%{count} pickup point malapit sa iyong lokasyon"
+        },
+        "change": "Baguhin",
+        "waiting_on_pickup_point_location_notice": "Naghahanap ng mga pickup point...",
+        "geolocation": {
+          "shared_location_button": "Gamitin ang aking lokasyon",
+          "errors": {
+            "unsuported_by_browser": "Ang pagkuha ng geolocation ay hindi sinusuportahan ng iyong browser. Subukang muli o gumamit ng ibang browser.",
+            "permission_not_allowed": "Payagan ang pagbabahagi ng iyong lokasyon.",
+            "permission_denied": "Hindi makuha ang iyong lokasyon. Subukan muli."
+          }
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Nagkaroon ng problema sa aming pag-checkout",
+          "message": "I-refresh ang page na ito o subukang muli sa loob ng ilang minuto",
+          "action": {
+            "cta": "I-refresh ang Pahina"
+          },
+          "request_id": "Request ID: {{requestId}}"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Bumalik sa cart",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} upang i-update ang mga dami",
+        "subscription_changed": "Nagbago ang isa sa iyong mga subscription.",
+        "company_location_changed": "Na-update na ang iyong cart. Suriin ang iyong order bago ito isumite.",
+        "company_location_changed_product_removed": "Na-update ang iyong cart dahil hindi available ang ilang produkto sa lokasyong ito. Suriin ang iyong order bago ito isumite.",
+        "violations_title": "{{violation}} ay nawawala o hindi wasto",
+        "individual_violations_title": {
+          "DeliveryViolations": "Address ng pagpapadala",
+          "OtherViolations": "Impormasyon ng Order",
+          "UnhandledViolations": "Impormasyon ng Order"
+        },
+        "all_violations_content": "Tumawag o {{emailLink}} sa amin upang i-update ang impormasyong ito at kumpletuhin ang iyong order:",
+        "editable_shipping_address_violations_message_title": "Idagdag ang impormasyong ito upang makumpleto ang iyong order:",
+        "editable_shipping_address_violations_message_footer": "Upang permanenteng i-update ang address para sa lokasyong ito, {{emailLink}} .",
+        "editable_shipping_address_violations_email_link": "Makipag-ugnayan sa amin",
+        "shipping_address_incomplete_title": "Hindi kumpleto ang address ng pagpapadala",
+        "calculating_shipping": "Kinakalkula pa ang pagpapadala. Subukang muli sa loob ng ilang segundo. Hindi ka nasingil.",
+        "calculating_taxes": "Kinakalkula pa rin ang mga buwis. Subukang muli sa loob ng ilang segundo. Hindi ka nasingil."
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Pagsusuri",
+          "link_label": "{{partnerDisplayName}} Mga Tuntunin at Kundisyon"
+        }
+      },
+      "online_store_chat": {
+        "title": "Mga tanong? Makipag-usap ka sa amin"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Mayroong %{count} na tindahan na may stock na malapit sa %{address}",
+          "other": "Mayroong %{count} na tindahan na may stock na malapit sa %{address}"
+        },
+        "toggle_location": "Baguhin ang aking lokasyon",
+        "or": "O",
+        "cancel": "Kanselahin",
+        "your_location": "iyong lokasyon",
+        "search_button": "Maghanap ng mga tindahan",
+        "no_stores_found": "Walang nakitang mga tindahan",
+        "could_not_resolve_address": "Hindi mahanap ang iyong address. Subukang muli o gumamit ng ibang address",
+        "paginator": {
+          "accessibility_label": "Pagbilang ng lokal na pickup",
+          "previous": "Nakaraang pahina",
+          "next": "Susunod na pahina"
+        },
+        "reveal_more_label": {
+          "one": "Magpakita ng %{count} pang lokasyon",
+          "other": "Magpakita ng %{count} pang lokasyon"
+        }
+      },
+      "captcha": {
+        "title": "Kumpletuhin ang CAPTCHA upang magpatuloy",
+        "errors": {
+          "not_solved": "Kumpletuhin ang CAPTCHA upang magpatuloy"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Hindi maproseso ang iyong order dahil hindi na available ang iyong discount code. Suriin ang kabuuan ng iyong order at subukang muli."
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "May problema sa paglo-load ng Shop Pay",
+          "try_again_later": "Suriin ang iyong koneksyon o isara ang window na ito at subukang muli sa ilang sandali.",
+          "checkout_has_expired": "Nag-expire na ang iyong pag-checkout. Isara ang window na ito at subukang tingnan muli mula sa {{shopName}} ."
+        },
+        "return_to_store": "Bumalik sa {{shopName}}"
+      },
+      "wallets": {
+        "return_to_store": "Bumalik sa tindahan",
+        "return_to_checkout": "Bumalik sa checkout",
+        "redirect_hint": "Hihilingin sa iyong mag-log in gamit ang {{walletName}} .",
+        "logged_in": "Nakakonekta sa {{email}}",
+        "shipping_line_label": "Pagpapadala",
+        "payment_in_progress_title": "Kasalukuyang isinasagawa ang pagbabayad",
+        "payment_in_progress_body": "Pinoproseso ang iyong bayad. Malapit nang makumpleto ang iyong order.",
+        "call_to_action": "Magbayad gamit ang {{walletName}}",
+        "redirection_notice": "Pagkatapos i-click ang \" {{buttonLabel}} \", ire-redirect ka sa {{walletName}} upang kumpletuhin ang iyong pagbili nang secure.",
+        "errors": {
+          "unavailable": {
+            "title": "Hindi available {{walletName}}"
+          }
+        }
       }
     }
   }
