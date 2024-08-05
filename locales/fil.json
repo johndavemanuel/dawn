@@ -508,5 +508,46 @@
         }
       }
     }
+  },
+  "customer": {
+    "register": {
+      "submit": "Lumikha"
+    },
+    "reset_password": {
+      "title": "I-reset ang password ng account",
+      "subtext": "Maglagay ng bagong password",
+      "password_confirm": "Kumpirmahin ang password",
+      "submit": "I-reset ang password"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "how_to_use_gift_card": "Gamitin ang gift card code online o QR code sa tindahan",
+      "title": "Narito ang iyong {{ value }} balanse ng gift card para sa {{ shop }} !",
+      "subtext": "Ang iyong gift card",
+      "gift_card_code": "Code ng gift card",
+      "shop_link": "Bisitahin ang online na tindahan",
+      "add_to_apple_wallet": "Idagdag sa Apple Wallet",
+      "qr_image_alt": "QR code — i-scan upang kunin ang gift card",
+      "copy_code": "Kopyahin ang code ng gift card",
+      "expiration_date": "Mag-e-expire {{ expires_on }}",
+      "copy_code_success": "Matagumpay na nakopya ang code",
+      "expired": "Nag-expire na"
+    }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "Gusto kong ipadala ito bilang regalo",
+      "expanded": "Pinalawak ang form ng tatanggap ng gift card",
+      "collapsed": "Na-collapse ang form ng tatanggap ng gift card",
+      "email_label": "Email ng tatanggap",
+      "email_label_optional_for_no_js_behavior": "Email ng tatanggap (opsyonal)",
+      "name_label": "Pangalan ng tatanggap (opsyonal)",
+      "name": "Pangalan",
+      "message_label": "Mensahe (opsyonal)",
+      "message": "Mensahe",
+      "max_characters": "{{ max_chars }} (na) character max",
+      "send_on_label": "Ipadala sa (opsyonal)"
+    }
   }
 }
