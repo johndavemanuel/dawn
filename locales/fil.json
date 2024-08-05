@@ -115,7 +115,125 @@
             "prefetch_shipping_rates_used": "Ang mga prefetched na rate ng pagpapadala ay hindi dapat magbalik ng mga rate.",
             "fulfillment_constraints_not_satisfied": "Ang isa o higit pang mga hadlang sa katuparan ay hindi nasiyahan.",
             "must_fulfill_from_constraint_not_satisfied": "Ang mga hadlang sa katuparan ay hindi nasisiyahan dahil ang mga item ay hindi maaaring matupad mula sa mga kinakailangang lokasyon.",
-            "must_fulfill_from_same_location_constraint_not_satisfied": "Ang mga hadlang sa katuparan ay hindi nasisiyahan dahil ang mga item ay hindi maaaring matupad mula sa parehong lokasyon."
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Ang mga hadlang sa katuparan ay hindi nasisiyahan dahil ang mga item ay hindi maaaring matupad mula sa parehong lokasyon.",
+            "delivery_strategy_conditions_not_satisfied": "Available ang mga diskarte sa paghahatid para sa lokasyong ito, ngunit hindi nasiyahan ang kanilang mga kundisyon.",
+            "out_of_stock_at_origin_location": "Walang stock sa pinanggalingang lokasyon.",
+            "invalid_signature": "Di-wastong lagda ng diskwento."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "Ang mga diskwento ay hindi pinapayagan sa mga tindahan ng B2B.",
+            "custom_discount_not_honoured": "Ang ibinigay na custom na diskwento ay hindi pinarangalan.",
+            "unsupported_expectation": "Ang ibinigay na linya ng diskwento ay naglalaman ng isang inaasahan na hindi maipaliwanag ng patakaran.",
+            "additional_requested_discount_code_discarded": "Ang karagdagang code na diskwento na hiniling ay itinapon.",
+            "allocations_mismatch": "Ang inaasahang paglalaan ng diskwento ay hindi tumutugma sa aktwal na paglalaan ng diskwento.",
+            "discount_title_too_long": "Ang pamagat ng diskwento ay hindi maaaring mas mahaba sa 255 character."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Ang isang bagong linya ng buwis sa panukala ng nagbebenta ay dapat tanggapin upang magpatuloy.",
+            "unresolvable_tax_terms": "Ang mga iminungkahing tuntunin ay hindi malulutas dahil sa kasalukuyang konteksto ng negosasyon.",
+            "delivery_price_is_abstract": "Ang kaugnay na presyo ng paghahatid ay abstract.",
+            "tax_inclusivity_mismatch": "Muling makipagnegosasyon gamit ang kongkretong kabuuangTaxAndDutyAmount o kabuuangAmountIncludedInTarget na halaga.",
+            "tax_exemption_not_supported": "Hindi sinusuportahan ang mga tax exemption para sa kasalukuyang sesyon ng negosasyon.",
+            "delivery_tax_exemption_not_supported": "Kasalukuyang hindi sinusuportahan ang mga tax exemption para sa mga linya ng paghahatid.",
+            "proposed_allocations_required": "Nawawala ang field ng 'minungkahing alokasyon'.",
+            "merchandise_terms_must_be_defined": "Dapat tukuyin ang mga termino ng merchandise.",
+            "delivery_terms_must_be_defined": "Dapat tukuyin ang mga tuntunin sa paghahatid.",
+            "merchandise_discount_terms_must_be_defined": "Dapat tukuyin ang mga tuntunin ng diskwento sa merchandise.",
+            "delivery_discount_terms_must_be_defined": "Dapat tukuyin ang mga tuntunin ng diskwento sa paghahatid.",
+            "allocated_required": "Nawawalang 'allocated' field.",
+            "value_required": "Nawawalang 'value' field.",
+            "line_splits_not_supported": "Ang field ng 'mga linya ng merchandise' ay dapat na hatiin upang ang bawat isa ay may isang bahagi ng linya sa panukala ng nagbebenta."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Ang mga manu-manong pagbabayad ay hindi pinapayagan sa mga B2B na tindahan.",
+            "positive_amount_expected": "Ang halagang babayaran ay dapat na higit sa 0.",
+            "total_amount_mismatch": "Ang kabuuang babayaran ay hindi tumutugma sa kabuuan ng halaga ng mga pagbabayad.",
+            "subscription_terms_not_accepted": "Hindi tinatanggap ang mga tuntunin sa subscription.",
+            "missing_session_id": "Nawawalang impormasyon ng session ng credit card.",
+            "gateway_not_supported": "Hindi sinusuportahan ng gateway ng pagbabayad ang pag-iimbak ng paraan ng pagbabayad.",
+            "credit_card_last_name_required": "Hindi maaaring wala ang 'apelyido'.",
+            "credit_card_update_failed": "Nabigo ang pag-update ng credit card.",
+            "installments_amount_invalid": "Di-wastong halaga para sa transaksyong Installments.",
+            "installments_test_mode_not_allowed": "Hindi pinapayagan ang test mode.",
+            "installments_gift_card_not_allowed": "Hindi pinapayagan ng mga installment ang paggamit ng mga gift card.",
+            "installments_unsupported_currency": "Hindi sinusuportahan ng mga installment ang currency na ito.",
+            "installments_unsupported_shipping": "Hindi sinusuportahan ng mga installment ang pagpapadala sa address na ito.",
+            "installments_unsupported_billing": "Hindi sinusuportahan ng mga installment ang billing address na ito.",
+            "installments_unsupported_subscriptions": "Hindi sinusuportahan ng mga installment ang mga subscription.",
+            "installments_ineligible_line_item": "Naka-disable ang mga installment para sa isang line item sa pagbiling ito.",
+            "shop_cash_not_allowed": "Hindi pinapayagan ang Shop Cash nang walang Shop Pay.",
+            "shop_cash_unsupported_checkout_source": "Hindi sinusuportahan ng Shop Cash ang checkout na ito.",
+            "shop_cash_gift_card_not_allowed": "Hindi pinapayagan ng Shop Cash ang pagbili ng mga gift card.",
+            "shop_cash_not_enabled": "Hindi pinagana ang Shop Cash para sa shop na ito.",
+            "shop_cash_unsupported_subscriptions": "Hindi sinusuportahan ng Shop Cash ang mga subscription.",
+            "shop_cash_unsupported_shipping": "Hindi sinusuportahan ng Shop Cash ang merchandise na walang pagpapadala.",
+            "invalid_address_type": "Ang ibinigay na uri ng address ay hindi wasto para sa paraan ng pagbabayad na ito.",
+            "missing_retail_attributions": "Kinakailangan ang mga retail attribution para sa manu-manong inilagay na mga pagbabayad sa credit card.",
+            "unexpected_retail_attributions": "Mga retail attribution na hindi inaasahang ibinigay para sa pagbabayad sa credit card.",
+            "invalid_card_source": "Walang pahintulot ang session na ito na gamitin ang pinagmulan ng card na ito.",
+            "wallet_content_missing": "Nawawala ang nilalaman ng pitaka.",
+            "payment_instrument_not_found": "Hindi mahanap ang paraan ng pagbabayad",
+            "unauthorized_capture_method": "Hindi pinapayagan ang pag-configure sa paraan ng pagkuha ng pagbabayad.",
+            "saved_payment_methods_not_allowed": "Hindi pinapayagan ang mga naka-save na paraan ng pagbabayad.",
+            "saved_payment_methods_not_enabled": "Ang mga naka-save na paraan ng pagbabayad ay hindi pinagana para sa shop na ito.",
+            "saved_payment_methods_cvv_verification_disabled": "Ang napiling paraan ng pagbabayad ay nangangailangan ng pag-verify ng CVV na hindi naka-enable para sa shop na ito. Pumili ng ibang paraan ng pagbabayad.",
+            "store_credit_not_enabled": "Hindi pinagana ang credit sa tindahan para sa shop na ito.",
+            "store_credit_account_not_found": "Hindi nakita ang store credit account.",
+            "store_credit_account_mismatch": "Hindi tumutugma ang store credit account sa pagkakakilanlan ng mamimili.",
+            "store_credit_mismatched_currency": "Ang pera ng store credit account ay hindi tumutugma sa pera sa pag-checkout.",
+            "store_credit_insufficient_funds": "Walang sapat na pondo sa store credit account.",
+            "store_credit_buying_gift_card": "Hindi mo magagamit ang credit ng tindahan para bumili ng gift card.",
+            "gift_cards_not_allowed_for_b2b": "Ang mga gift card ay hindi pinapayagan sa mga tindahan ng B2B.",
+            "method_required": "Dapat magmungkahi ng paraan ng pagbabayad.",
+            "paypal_express_address_invalid": "Nagbalik ang PayPal ng di-wastong address.",
+            "shop_cash_unsupported_currency": "Hindi sinusuportahan ng Shop Cash ang currency na ito.",
+            "market_manager_blocks_wallet_payments": "Ang paraan ng pagbabayad ay hindi sinusuportahan ng market manager."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Ang tindahan ay hindi tumatanggap ng mga tip.",
+            "only_one_tip_line_allowed": "Hindi sinusuportahan ang maraming linya ng tip.",
+            "tips_not_allowed_for_b2b": "Ang mga tip ay hindi pinapayagan sa mga tindahan ng B2B.",
+            "currency_change_reset": "Na-reset ang tip dahil sa pagbabago ng currency.",
+            "tips_not_allowed_for_deferred_purchase_options": "Ang mga tip ay hindi pa suportado para sa mga nadefer na opsyon sa pagbili."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Ang draft na order na ito ay wala sa kasalukuyang shop.",
+            "staff_member_not_exist": "Ang staff na ito ay wala sa kasalukuyang tindahan.",
+            "location_not_exist": "Ang lokasyong ito ay wala sa kasalukuyang tindahan.",
+            "point_of_sale_device_not_exist": "Ang point of sale device na ito ay hindi umiiral sa kasalukuyang tindahan.",
+            "unresolvable_target_merchandise_lines": "Ang mga iminungkahing pagpapatungkol sa pagbebenta ay hindi malulutas dahil sa kasalukuyang konteksto ng negosasyon."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Ang panukala ng iyong mamimili ay dapat maglaman ng non-negotiable_terms.",
+            "invalid_signature": "Ang lagda para sa {{target_terms}} ay hindi wasto."
+          },
+          "inventory": {
+            "missing_quantity_value": "Nawawala ang field ng dami sa mga linya ng imbentaryo ng mamimili.",
+            "changing_behavior_not_allowed": "Walang pahintulot ang kliyenteng ito na baguhin ang gawi ng imbentaryo.",
+            "only_one_inventory_behavior_allowed": "Sa kasalukuyan, isang pag-uugali ng imbentaryo lamang ang pinapayagan sa bawat pag-checkout."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Ang pagtanggi sa mga tungkulin ay hindi pinapayagan para sa pag-checkout na ito."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Hindi pinapayagan ang retail attribution para sa checkout na ito.",
+            "retail_attribution_required": "Kinakailangan ang retail attribution para sa checkout na ito."
+          },
+          "captcha": {
+            "metadata_missing": "Ang pagkumpleto ng captcha ay kinakailangan para sa checkout na ito.",
+            "metadata_mismatch": "Ang ibinigay na provider at uri ng captcha ay hindi tumutugma sa mga inaasahang halaga.",
+            "token_missing": "Dapat magbigay ng captcha token para makumpleto ang checkout na ito.",
+            "job_enqueue_failed": "Nabigong ma-enqueue ang captcha validation job.",
+            "job_already_queued": "Ang pagpapatunay ng captcha ay na-queue na para sa captcha token na ito.",
+            "token_expired": "Ang ibinigay na captcha token ay nag-expire na. Kumpletuhin ang isang bagong captcha upang magpatuloy sa pag-checkout.",
+            "token_invalid": "Ang ibinigay na captcha token ay hindi wasto. Kumpletuhin ang isang bagong captcha upang magpatuloy sa pag-checkout.",
+            "token_not_valid_for_session": "Ang ibinigay na captcha ay hindi magagamit sa checkout na ito."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Ang halagang natanggap ay dapat nasa pera ng tindahan."
+          },
+          "checkout_source": {
+            "revoked": "Hindi na available ang checkout na ito."
           }
         },
         "confirm_order_button_label": "Kumpirmahin ang order",
@@ -185,7 +303,8 @@
           "add_file": "Magdagdag ng file",
           "invalid_file_type": "Hindi sinusuportahan ang uri ng file",
           "dragged_over": "I-drop ang file para i-upload"
-        }
+        },
+        "full_price": "Buong presyo:"
       },
       "payment": {
         "order_edit_banner_items_removed": {
