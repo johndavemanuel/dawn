@@ -641,13 +641,99 @@
   },
   "customer": {
     "register": {
-      "submit": "Lumikha"
+      "submit": "Lumikha",
+      "title": "Gumawa ng account",
+      "first_name": "Pangalan",
+      "last_name": "Huling pangalan"
     },
     "reset_password": {
       "title": "I-reset ang password ng account",
       "subtext": "Maglagay ng bagong password",
       "password_confirm": "Kumpirmahin ang password",
       "submit": "I-reset ang password"
+    },
+    "account": {
+      "details": "Mga detalye ng account",
+      "view_addresses": "Tingnan ang mga address",
+      "return": "Bumalik sa mga detalye ng Account"
+    },
+    "activate_account": {
+      "title": "I-activate ang account",
+      "subtext": "Lumikha ng iyong password upang i-activate ang iyong account.",
+      "password_confirm": "Kumpirmahin ang password",
+      "submit": "I-activate ang account",
+      "cancel": "Tanggihan ang imbitasyon"
+    },
+    "addresses": {
+      "title": "Mga address",
+      "add_new": "Magdagdag ng bagong address",
+      "edit_address": "I-edit ang address",
+      "first_name": "Pangalan",
+      "last_name": "Huling pangalan",
+      "company": "kumpanya",
+      "city": "lungsod",
+      "country": "Bansa\/rehiyon",
+      "province": "Lalawigan",
+      "zip": "Postal \/ ZIP Code",
+      "phone": "Telepono",
+      "set_default": "Itakda bilang default na address",
+      "add": "Magdagdag ng address",
+      "update": "I-update ang address",
+      "cancel": "Kanselahin",
+      "edit": "I-edit",
+      "delete": "Tanggalin",
+      "delete_confirm": "Sigurado ka bang gusto mong tanggalin ang address na ito?"
+    },
+    "log_in": "Mag log in",
+    "login_page": {
+      "cancel": "Kanselahin",
+      "create_account": "Gumawa ng account",
+      "forgot_password": "Nakalimutan ang iyong password?",
+      "guest_continue": "Magpatuloy",
+      "guest_title": "Magpatuloy bilang panauhin",
+      "title": "Mag log in",
+      "sign_in": "Mag-sign in",
+      "submit": "Ipasa",
+      "alternate_provider_separator": "o"
+    },
+    "order": {
+      "title": "Order {{ name }}",
+      "date_html": "Inilagay sa {{ date }}",
+      "cancelled_html": "Kinansela ang Order noong {{ date }}",
+      "cancelled_reason": "Dahilan: {{ reason }}",
+      "billing_address": "Address ng Pagsingil",
+      "payment_status": "Katayuan ng Pagbabayad",
+      "shipping_address": "Address ng Pagpapadala",
+      "fulfillment_status": "Katayuan ng Katuparan",
+      "discount": "diskwento",
+      "shipping": "Pagpapadala",
+      "tax": "Buwis",
+      "product": "produkto",
+      "price": "Presyo",
+      "quantity": "Dami",
+      "total": "Kabuuan",
+      "total_refunded": "Na-refund",
+      "fulfilled_at_html": "Natupad {{ date }}",
+      "track_shipment": "Subaybayan ang pagpapadala",
+      "tracking_url": "Link sa pagsubaybay",
+      "tracking_company": "Tagapagdala",
+      "tracking_number": "Bilang na palatandaan",
+      "total_duties": "Mga tungkulin"
+    },
+    "orders": {
+      "title": "History ng order",
+      "order_number": "Umorder",
+      "order_number_link": "Numero ng order {{ number }}",
+      "date": "Petsa",
+      "payment_status": "Katayuan ng pagbabayad",
+      "fulfillment_status": "Katayuan ng katuparan",
+      "total": "Kabuuan",
+      "none": "Hindi ka pa nakakapag-order."
+    },
+    "recover_password": {
+      "title": "I-reset ang iyong password",
+      "subtext": "Padadalhan ka namin ng email para i-reset ang iyong password",
+      "success": "Nagpadala kami sa iyo ng email na may link para i-update ang iyong password."
     }
   },
   "gift_cards": {
@@ -679,5 +765,30 @@
       "max_characters": "{{ max_chars }} (na) character max",
       "send_on_label": "Ipadala sa (opsyonal)"
     }
+  },
+  "templates": {
+    "contact": {
+      "form": {
+        "title": "Form sa pakikipag-ugnayan",
+        "name": "Pangalan",
+        "phone": "Numero ng telepono",
+        "comment": "Magkomento",
+        "send": "Ipadala",
+        "post_success": "Salamat sa pakikipag-ugnayan sa amin. Babalik kami sa iyo sa lalong madaling panahon.",
+        "error_heading": "Mangyaring ayusin ang sumusunod:"
+      }
+    },
+    "404": {
+      "title": "Hindi nahanap ang page"
+    }
+  },
+  "localization": {
+    "country_label": "Bansa\/rehiyon",
+    "language_label": "Wika",
+    "update_language": "I-update ang wika",
+    "update_country": "I-update ang bansa\/rehiyon",
+    "search": "Maghanap",
+    "popular_countries_regions": "Mga sikat na bansa\/rehiyon",
+    "country_results_count": "{{ count }} na mga bansa\/rehiyon ang natagpuan"
   }
 }
