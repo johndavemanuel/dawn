@@ -1,0 +1,245 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "shopify": {
+    "sentence": {
+      "two_words_connector": " at ",
+      "last_word_connector": ", at "
+    },
+    "checkout": {
+      "address_management": {
+        "confirm_address_deletion": "Sigurado ka bang gusto mong tanggalin ang address {{address}} ?"
+      },
+      "general": {
+        "page_title": "Tignan mo",
+        "skip_to_content": "Lumaktaw sa nilalaman",
+        "continue_button_label": "Magpatuloy",
+        "complete_purchase_button_label": "Kumpletong order",
+        "pay_now_button_label": "Magbayad na",
+        "authenticate_purchase_button_label": "Patunayan ang pagbabayad",
+        "edit_link_label": "I-edit",
+        "all_rights_reserved": "Nakalaan ang lahat ng karapatan %{shop_name}",
+        "close_modal_label": "Isara",
+        "close_notice_label": "Isara",
+        "expand_notice_label": "Tingnan ang higit pa",
+        "continue_to_shipping_method": "Magpatuloy sa pagpapadala",
+        "continue_to_payment_method": "Magpatuloy sa pagbabayad",
+        "continue_to_review": "Suriin ang order",
+        "back_to_cart": "Bumalik sa cart",
+        "back_to_contact_information": "Bumalik sa impormasyon",
+        "back_to_shipping_method": "Bumalik sa pagpapadala",
+        "back_to_payment_method": "Bumalik sa pagbabayad",
+        "choose_shipping_method": "Pumili ng paraan ng pagpapadala",
+        "choose_payment_method": "Pumili ng paraan ng pagbabayad",
+        "choose_billing_address": "Pumili ng billing address",
+        "contact_us_html": "Makipag-ugnayan sa amin para sa karagdagang impormasyon",
+        "autocomplete_title": "Mga mungkahi",
+        "autocomplete_single_item": "1 item ang magagamit",
+        "autocomplete_multi_item": "{{number}} item ang available",
+        "autocomplete_close": "Isara ang mga mungkahi",
+        "forwarding_indicator": {
+          "new_window": "Nagbubukas sa bagong window.",
+          "external": "Nagbubukas ng panlabas na website.",
+          "external_and_new_window": "Nagbubukas ng panlabas na website sa isang bagong window."
+        },
+        "tooltip_accessibility_label": "Karagdagang informasiyon",
+        "errors": {
+          "only_empty_terms_accepted": "Ang patakarang ito ay tumatanggap lamang ng mga walang laman na tuntunin.",
+          "session_identifier_not_unique_error": "Nagkaproblema sa iyong order, pakisubukang tingnan muli.",
+          "line_item_limit_reached": "Naabot na ang maximum na bilang ng mga line item.",
+          "session_is_already_finished": "Natapos na ang checkout session na ito.",
+          "merchandise": {
+            "only_value_constraint": "Mga eksaktong value lang ang pinapayagan sa merchandise input.",
+            "merchandise_not_found": "Hindi nahanap ang produkto.",
+            "merchandise_variant_not_found": "Hindi nakita ang variant ng produkto.",
+            "merchandise_not_applicable": "Hindi mabibili ang variant ng produkto.",
+            "bundle_products_not_supported_for_b2b": "Ang mga naka-bundle na item ay hindi maaaring idagdag sa mga B2B na order para sa lokasyong ito.",
+            "gift_card_quantity_mismatch": "Kapag tinukoy ang mga code ng gift card, dapat tumugma ang dami ng line item at ang bilang ng mga code ng gift card.",
+            "gift_card_not_supported": "Ang mga gift card ay hindi suportado sa checkout na ito.",
+            "gift_card_not_unique": "Ang gift card na may code na {{code}} ay nangyayari nang higit sa isang beses sa checkout na ito. Ang mga code ay na-format bago ang paghahambing.",
+            "gift_card_used": "Ang code ng gift card na {{code}} ay nakatalaga na sa isang gift card. Ang mga code ay na-format bago ang paghahambing.",
+            "gift_card_invalid": "Ang code ng gift card na {{code}} ay hindi wasto.",
+            "gift_card_code_changed": "Ang code ng gift card {{proposed_code}} ay binago sa {{formatted_code}} upang sumunod sa mga panuntunan sa pag-format.",
+            "gift_card_with_attributes_not_supported": "Ang mga gift card na may mga custom na katangian ay hindi sinusuportahan sa checkout na ito.",
+            "gift_card_with_components_not_supported": "Ang mga gift card na may mga bahagi ay hindi sinusuportahan sa checkout na ito.",
+            "selling_plan_mismatch": "Ang subscription ay na-update.",
+            "selling_plan_not_supported": "Hindi sinusuportahan ang mga subscription.",
+            "selling_plan_not_supported_b2b": "Ang mga subscription ay hindi suportado para sa B2B checkout.",
+            "price_mismatch": "Ang dating iminungkahing presyo para sa merchandise na ito ay hindi wasto at na-update na.",
+            "inventory_not_found": "Walang nakitang imbentaryo para sa merchandise na ito.",
+            "product_not_published": "Hindi nai-publish ang produkto.",
+            "duplicated_stable_id": "Ang merchandise line na ito ay may parehong stable-ID gaya ng isa pang linya.",
+            "minimum_quantity_not_met": "Ang dami ng ilang item ay hindi nakakatugon sa minimum na kinakailangan.",
+            "maximum_quantity_exceeded": "Ang dami ng ilang item ay lumampas sa maximum na pinapayagan.",
+            "quantity_increment_not_met": "Ang dami ng ilang item ay hindi nakakatugon sa mga limitasyon ng order.",
+            "quantity_rules_not_met": "Ang dami ng ilang item ay hindi nakakatugon sa mga limitasyon ng order.",
+            "bundle_requires_components": "Ang bundle merchandise na ito ay walang mga bahagi.",
+            "title_too_long": "Masyadong mahaba ang pamagat ng merchandise.",
+            "title_empty": "Walang laman ang pamagat ng merchandise."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Walang access sa kumpanya ang contact ng kumpanya.",
+            "customer_account_required": "Dapat mag-log in ang customer upang magpatuloy.",
+            "company_location_required": "Dapat pumili ang customer ng lokasyon ng kumpanya upang magpatuloy.",
+            "contact_info_does_not_match_customer_account": "Ang tinukoy na impormasyon ng customer ay dapat tumugma sa naka-log in na account ng customer.",
+            "phone_number_does_not_match_expected_pattern": "Ang tinukoy na numero ng telepono ay hindi tumutugma sa inaasahang pattern.",
+            "email_required": "Kailangan ng email kapag binili ang merchandise gamit ang isang subscription.",
+            "email_domain_is_invalid": "Hindi malulutas ang tinukoy na domain na ito.",
+            "missing_contact_method": "Walang wastong paraan ng pakikipag-ugnayan.",
+            "checkout_completion_target_is_missing": "Nawawala ang target sa pagkumpleto ng checkout.",
+            "invalid_customer_profile": "Isang di-wastong profile ng customer ang ibinigay.",
+            "customer_profile_access_restricted": "Walang pahintulot ang Checkout na i-access ang profile ng customer.",
+            "checkout_completion_target_is_invalid_proc": "Di-wastong target sa pagkumpleto ng checkout."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Ang cart ay dapat magkaroon lamang ng isang linya ng paghahatid.",
+            "wrong_number_of_delivery_lines": "Dapat na tukuyin ang isang linya ng paghahatid para sa bawat pangkat ng mga kalakal.",
+            "external_delivery_promise_error": "Error sa pagkuha ng pangako sa panlabas na paghahatid.",
+            "options_instructions_invalid": "Ang tinukoy na mga tagubilin ay hindi tumutugma sa inaasahang pattern.",
+            "destination_address_required": "Kinakailangan ang patutunguhang address upang makapagpatuloy.",
+            "pickup_points_unavailable": "Kasalukuyang hindi available ang mga pickup point.",
+            "local_pickup_delivery_line_detail_changed": "Dapat baguhin ang kasalukuyang diskarte sa paghahatid ng lokal na pickup upang magpatuloy.",
+            "local_pickup_no_delivery_strategy_available": "Walang nahanap na available na diskarte sa paghahatid ng lokal na pickup.",
+            "origin_location_id_required": "Kinakailangan ang pinagmulang lokasyon ID kapag hiniling ang paraan ng paghahatid ng RETAIL.",
+            "invalid_origin_location_id": "Hindi makahanap ng Lokasyon na tumutugma sa pinagmulang lokasyon ID.",
+            "origin_location_id_not_allowed": "Ang hiniling na paraan ng paghahatid ay hindi sumusuporta sa pinagmulang lokasyon ID.",
+            "auto_fulfill_not_allowed": "Ang session na ito ay hindi pinahihintulutan na i-override ang pag-uugali sa pagtupad.",
+            "auto_fulfill_required": "Kinakailangan ang awtomatikong pagtupad kapag hiniling ang paraan ng paghahatid ng RETAIL.",
+            "prefetch_shipping_rates_used": "Ang mga prefetched na rate ng pagpapadala ay hindi dapat magbalik ng mga rate.",
+            "fulfillment_constraints_not_satisfied": "Ang isa o higit pang mga hadlang sa katuparan ay hindi nasiyahan.",
+            "must_fulfill_from_constraint_not_satisfied": "Ang mga hadlang sa katuparan ay hindi nasisiyahan dahil ang mga item ay hindi maaaring matupad mula sa mga kinakailangang lokasyon.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Ang mga hadlang sa katuparan ay hindi nasisiyahan dahil ang mga item ay hindi maaaring matupad mula sa parehong lokasyon."
+          }
+        }
+      },
+      "payment": {
+        "order_edit_banner_items_removed": {
+          "with_quantities": "Inalis {{delta}} ng {{quantity}}"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "Ibinalik ang {{quantity}}",
+          "with_quantities": "Ibinalik {{delta}} ng {{quantity}}"
+        },
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Inalis sa pagbabalik",
+          "with_quantities": "Inalis {{delta}} mula sa pagbabalik"
+        },
+        "order_edit_banner_single_item_added": "Idinagdag",
+        "order_edit_banner_multiple_items_added": "Nagdagdag ng {{amount}}",
+        "order_edit_banner_single_item_removed": "Inalis",
+        "order_edit_banner_multiple_items_removed": "Inalis ang {{amount}}",
+        "order_edit_banner_single_item_returned": "Ibinalik",
+        "order_edit_banner_multiple_items_returned": "Ibinalik ang {{amount}}",
+        "order_edit_banner_single_item_return_line_item_removed": "Inalis sa pagbabalik",
+        "order_edit_banner_multiple_items_return_line_item_removed": "Inalis {{amount}} mula sa pagbabalik",
+        "order_edit_banner_updated_order_label": "Na-update na order",
+        "gift_card_wrapper": {
+          "apply_gift_card_label": "Mag-apply ng gift card",
+          "apply_another_gift_card_label": "Mag-apply ng isa pang gift card",
+          "add_label": "Magdagdag ng gift card",
+          "manage_label": "Pamahalaan ang mga gift card"
+        },
+        "gift_card_store_credit": {
+          "add_label": "Magdagdag ng gift card o credit sa tindahan",
+          "manage_label": "Pamahalaan ang mga gift card o credit sa tindahan"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Custom na Onsite na Kumpirmasyon ng Pagbabayad"
+        },
+        "markets_pro_disclaimer_label": "Sa pamamagitan ng pag-click sa ibaba at pagkumpleto ng iyong order, sumasang-ayon kang bilhin ang iyong (mga) item mula sa Global-e bilang merchant of record para sa transaksyong ito, sa %{markets_pro_terms} at %{privacy_policy} ng Global-e. Ang Global-e ay isang international fulfillment service provider sa %{shop_name}",
+        "markets_pro_disclaimer_terms_and_conditions": "Mga Tuntunin at Kundisyon",
+        "markets_pro_disclaimer_privacy_policy": "Patakaran sa Privacy",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Mga Tuntunin at Kundisyon ng Merchant of Record",
+        "markets_pro_disclaimer_privacy_policy_title": "Patakaran sa Privacy ng Merchant of Record",
+        "purchase_order_number": {
+          "title": "Numero ng PO",
+          "label": "Numero ng PO (opsyonal)"
+        },
+        "alternative_payment_currency_total_notice": "Tandaan: sisingilin ka ng %{amount_due}.",
+        "alternative_payment_currency_total_manual_payment_notice": "Tandaan: ang kabuuang na-convert ay %{amount_due}.",
+        "waiting_on_taxes_message": "Kung hindi makalkula ang iyong mga buwis sa loob ng susunod na ilang segundo, i-refresh ang page.",
+        "waiting_on_taxes_notice": "Pagkalkula ng mga buwis",
+        "payment_method": "Paraan ng Pagbayad",
+        "expired_payment_method": "Nag-expire na ang napiling paraan ng pagbabayad",
+        "payment_method_update_failed": "Nabigo ang pag-update ng paraan ng pagbabayad.",
+        "proposed_gateway_unavailable": "Ang iminungkahing gateway ng pagbabayad ay hindi magagamit",
+        "pay_in_installments_split_pay_short": "4 na pagbabayad ng %{amount}"
+      },
+      "billing": {
+        "billing_address_title": "Bill sa",
+        "same_as_shipping": "Pareho sa address ng pagpapadala",
+        "add_address": "Gumamit ng ibang address",
+        "edit": "I-edit",
+        "delete": "Tanggalin",
+        "address_more": "Higit pang mga pagkilos para sa address na ito",
+        "address_edit": "I-edit ang address",
+        "address_delete": "Tanggalin ang address",
+        "address_confirm": "Sigurado ka bang gusto mong tanggalin ang address na ito mula sa iyong account?",
+        "address_form": {
+          "add_address": "Magdagdag ng address",
+          "save": "I-save",
+          "cancel": "Kanselahin"
+        }
+      },
+      "company_location": {
+        "location_title": "Lokasyon"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Kasalukuyang balanse %{amount}",
+        "credit_card_expires_on_notice": "Mag-e-expire sa %{month}\/%{year}",
+        "manual_payment_gateway_label": "Manwal",
+        "free_label": "Libre"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Maglagay ng wastong numero ng telepono",
+        "handle_email_invalid": "Maglagay ng wastong email",
+        "email_invalid": "Maglagay ng wastong email",
+        "email_or_phone_blank": "Maglagay ng email o numero ng telepono",
+        "email_or_phone_invalid": "Maglagay ng wastong email o numero ng mobile phone",
+        "address_first_name_blank": "Maglagay ng unang pangalan",
+        "address_first_name_too_long": "Masyadong mahaba ang pangalan (maximum ay 255 character)",
+        "address_first_name_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang pangalan",
+        "address_first_name_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang pangalan.",
+        "address_first_name_contains_url": "Hindi maaaring maglaman ng URL ang pangalan",
+        "address_first_name_contains_mathematical_symbols": "Ang pangalan ay hindi maaaring maglaman ng mga mathematical na simbolo",
+        "address_last_name_blank": "Maglagay ng apelyido",
+        "address_last_name_too_long": "Masyadong mahaba ang apelyido (maximum ay 255 character)",
+        "address_last_name_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang apelyido",
+        "address_last_name_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang apelyido.",
+        "address_last_name_contains_url": "Hindi maaaring maglaman ng URL ang apelyido",
+        "address_last_name_contains_mathematical_symbols": "Hindi maaaring maglaman ng mga simbolo ng matematika ang apelyido",
+        "address_address1_blank": "Maglagay ng address",
+        "address_address1_too_long": "Masyadong mahaba ang unang linya ng address (ang maximum ay 255 character)",
+        "address_address1_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang Address1",
+        "address_address1_contains_html_tags": "Ang Address1 ay hindi maaaring maglaman ng mga HTML tag.",
+        "address_address1_contains_mathematical_symbols": "Ang unang linya ng address ay hindi maaaring maglaman ng mga mathematical na simbolo",
+        "address_street_name_blank": "Maglagay ng pangalan ng kalye",
+        "address_street_name_too_long": "Masyadong mahaba ang kalye (ang maximum ay {{count}} na mga character)",
+        "address_street_name_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang kalye",
+        "address_street_name_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang kalye.",
+        "address_street_name_contains_mathematical_symbols": "Hindi maaaring maglaman ng mga simbolo ng matematika ang kalye",
+        "address_street_number_blank": "Maglagay ng numero ng gusali",
+        "address_street_number_too_long": "Masyadong mahaba ang numero ng gusali (ang maximum ay {{count}} na mga character)",
+        "address_street_number_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang numero ng gusali",
+        "address_street_number_contains_html_tags": "Hindi maaaring maglaman ng mga HTML tag ang numero ng gusali.",
+        "address_street_number_contains_mathematical_symbols": "Ang numero ng gusali ay hindi maaaring maglaman ng mga mathematical na simbolo",
+        "address_address2_blank": "Pumasok sa isang apartment, suite, atbp.",
+        "address_address2_too_long": "Ang pangalawang linya ng address ay masyadong mahaba (ang maximum ay 255 character)",
+        "address_address2_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang Address2",
+        "address_address2_contains_html_tags": "Ang Address2 ay hindi maaaring maglaman ng mga HTML tag.",
+        "address_address2_contains_mathematical_symbols": "Ang pangalawang linya ng address ay hindi maaaring maglaman ng mga simbolo ng matematika",
+        "address_neighborhood_blank": "Pumasok sa isang kapitbahayan",
+        "address_neighborhood_too_long": "Masyadong mahaba ang kapitbahayan (ang maximum ay {{count}} na mga character)",
+        "address_neighborhood_contains_emojis": "Hindi maaaring maglaman ng mga emoji ang kapitbahayan",
+        "address_neighborhood_contains_html_tags": "Ang kapitbahayan ay hindi maaaring maglaman ng mga HTML na tag."
+      }
+    }
+  }
+}
