@@ -117,6 +117,74 @@
             "must_fulfill_from_constraint_not_satisfied": "Ang mga hadlang sa katuparan ay hindi nasisiyahan dahil ang mga item ay hindi maaaring matupad mula sa mga kinakailangang lokasyon.",
             "must_fulfill_from_same_location_constraint_not_satisfied": "Ang mga hadlang sa katuparan ay hindi nasisiyahan dahil ang mga item ay hindi maaaring matupad mula sa parehong lokasyon."
           }
+        },
+        "confirm_order_button_label": "Kumpirmahin ang order",
+        "submit_order_button_label": "Magsumite ng order",
+        "submit_for_review_button_label": "Isumite para sa pagsusuri",
+        "submit_for_review_notice_label": "Ang pagbabayad ay hindi dapat bayaran hanggang sa masuri ang iyong order",
+        "continue_to_payment_plans_button_label": "Magpatuloy sa mga plano sa pagbabayad",
+        "back_button_label": "Bumalik",
+        "choose_delivery_strategy": "Pumili ng paraan ng paghahatid",
+        "autocomplete_zero_item": "Walang available na item",
+        "autocomplete_powered_by_google": "Pinapatakbo ng {{brandName}}",
+        "submit": "Ipasa",
+        "processing": "Pinoproseso…",
+        "stepper": {
+          "increase": "Dagdagan {{type}}",
+          "decrease": "Bawasan ang {{type}}",
+          "minimum_reached": "Naabot na ang minimum na {{value}}",
+          "maximum_reached": "Naabot na ang maximum na {{value}}"
+        },
+        "remove_item": "Alisin ang %{label}",
+        "remove_tag": "Alisin ang tag",
+        "dates": {
+          "weekdays": {
+            "monday": "Lunes",
+            "tuesday": "Martes",
+            "wednesday": "Miyerkules",
+            "thursday": "Huwebes",
+            "friday": "Biyernes",
+            "saturday": "Sabado",
+            "sunday": "Linggo"
+          },
+          "weekdays_abbreviation": {
+            "wednesday": "Kami",
+            "friday": "Sinabi ni Fr"
+          },
+          "months": {
+            "january": "Enero",
+            "february": "Pebrero",
+            "march": "Marso",
+            "april": "Abril",
+            "june": "Hunyo",
+            "july": "Hulyo",
+            "august": "Agosto",
+            "september": "Setyembre",
+            "october": "Oktubre",
+            "november": "Nobyembre",
+            "december": "Disyembre"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Ipakita ang nakaraang buwan, {{month}} {{year}}",
+          "show_next_month": "Ipakita sa susunod na buwan, {{month}} {{year}}",
+          "range_start": "Simula ng saklaw",
+          "in_range": "Nasa hanay",
+          "range_end": "dulo ng saklaw"
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Cluster ng {{number}} marker",
+            "other": "Cluster ng {{number}} marker"
+          }
+        },
+        "sheet": {
+          "expand": "Palawakin"
+        },
+        "dropzone": {
+          "add_file": "Magdagdag ng file",
+          "invalid_file_type": "Hindi sinusuportahan ang uri ng file",
+          "dragged_over": "I-drop ang file para i-upload"
         }
       },
       "payment": {
@@ -1025,7 +1093,46 @@
         "different_shipping_address_text": "Gumamit ng isang beses na address para sa order na ito",
         "change_company_location_link_label": "Baguhin ang lokasyon ng kumpanya",
         "change_location_link_label": "Baguhin ang lokasyon",
-        "ship_to_company": "Ipadala sa {{companyName}}"
+        "ship_to_company": "Ipadala sa {{companyName}}",
+        "title": "Impormasyon",
+        "shipping_used_as_billing_notice": "Gagamitin din ito bilang iyong billing address para sa order na ito.",
+        "delivery_option_title": "Paraan ng paghahatid",
+        "contact_method_title": "Makipag-ugnayan",
+        "email_or_phone_label": "Email o numero ng mobile phone",
+        "email_or_phone_placeholder": "Email o numero ng mobile phone",
+        "stored_addresses_label": "Mga naka-save na address",
+        "available_addresses_label": "Magagamit na mga address",
+        "new_address_label": "Gumamit ng bagong address",
+        "first_name_label": "Pangalan",
+        "optional_first_name_label": "Pangalan (opsyonal)",
+        "last_name_label": "Huling pangalan",
+        "company_label": "kumpanya",
+        "company_attention_label": "Kumpanya\/Atensyon",
+        "optional_company_attention_label": "Kumpanya\/Atensyon (opsyonal)",
+        "optional_company_label": "Kumpanya (opsyonal)",
+        "street_name_label": "kalye",
+        "street_number_label": "Numero ng gusali",
+        "optional_street_number_label": "Numero ng gusali (opsyonal)",
+        "address2_label": "Apartment, suite, atbp.",
+        "optional_address2_label": "Apartment, suite, atbp. (opsyonal)",
+        "neighborhood_label": "Kapitbahayan",
+        "optional_neighborhood_label": "Kapitbahayan (opsyonal)",
+        "optional_barangay_label": "Barangay (opsyonal)",
+        "colony_label": "kolonya",
+        "optional_colony_label": "Colony (opsyonal)",
+        "optional_commune_label": "Commune (opsyonal)",
+        "district_label": "Distrito",
+        "optional_district_label": "Distrito (opsyonal)",
+        "optional_ward_label": "Ward (opsyonal)",
+        "block_label": "I-block",
+        "optional_block_label": "I-block (opsyonal)",
+        "area_label": "Lugar",
+        "optional_area_label": "Lugar (opsyonal)",
+        "city_label": "lungsod",
+        "country_label": "Bansa\/Rehiyon",
+        "country_code": "Code ng bansa\/rehiyon",
+        "province_label": "Lalawigan",
+        "province_placeholder": "Lalawigan"
       },
       "delivery_options": {
         "free_total_label": "Libre",
