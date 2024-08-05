@@ -1954,6 +1954,35 @@
     },
     "404": {
       "title": "Hindi nahanap ang page"
+    },
+    "search": {
+      "no_results": "Walang nakitang mga resulta para sa “ {{ terms }} ”. Suriin ang pagbabaybay o gumamit ng ibang salita o parirala.",
+      "page": "Pahina",
+      "products": "Mga produkto",
+      "results_pages_with_count": {
+        "one": "{{ count }} na pahina",
+        "other": "{{ count }} na pahina"
+      },
+      "results_suggestions_with_count": {
+        "one": "{{ count }} na mungkahi",
+        "other": "{{ count }} na mga mungkahi"
+      },
+      "results_products_with_count": {
+        "one": "{{ count }} produkto",
+        "other": "{{ count }} na mga produkto"
+      },
+      "results_with_count": {
+        "one": "{{ count }} resulta",
+        "other": "{{ count }} resulta"
+      },
+      "results_with_count_and_term": {
+        "one": "{{ count }} resulta na natagpuan para sa “ {{ terms }} ”",
+        "other": "{{ count }} resulta na natagpuan para sa “ {{ terms }} ”"
+      },
+      "title": "Mga Resulta ng Paghahanap",
+      "search_for": "Hanapin ang “ {{ terms }} ”",
+      "suggestions": "Mga mungkahi",
+      "pages": "Mga pahina"
     }
   },
   "localization": {
@@ -2901,7 +2930,104 @@
   "products": {
     "product": {
       "add_to_cart": "Idagdag sa cart",
-      "choose_options": "Pumili ng mga opsyon"
+      "choose_options": "Pumili ng mga opsyon",
+      "choose_product_options": "Pumili ng mga opsyon para sa {{ product_name }}",
+      "description": "Paglalarawan",
+      "inventory_in_stock": "Sa stock",
+      "inventory_in_stock_show_count": "{{ quantity }} sa stock",
+      "inventory_low_stock": "Mababang stock",
+      "inventory_low_stock_show_count": "Mababang stock: {{ quantity }} left",
+      "inventory_out_of_stock_continue_selling": "Sa stock",
+      "on_sale": "Pagbebenta",
+      "product_variants": "Mga variant ng produkto",
+      "media": {
+        "gallery_viewer": "Viewer ng Gallery",
+        "load_image": "Mag-load ng larawan {{ index }} sa gallery view",
+        "load_model": "I-load ang 3D Model {{ index }} sa gallery view",
+        "load_video": "I-play ang video {{ index }} sa view ng gallery",
+        "image_available": "Ang imaheng {{ index }} ay available na ngayon sa gallery view",
+        "open_media": "Buksan ang media {{ index }} sa modal",
+        "play_model": "Maglaro ng 3D Viewer",
+        "play_video": "I-play ang video"
+      },
+      "quantity": {
+        "label": "Dami",
+        "input_label": "Dami para sa {{ product }}",
+        "increase": "Dagdagan ang dami para sa {{ product }}",
+        "decrease": "Bawasan ang dami para sa {{ product }}",
+        "minimum_of": "Minimum ng {{ quantity }}",
+        "maximum_of": "Maximum ng {{ quantity }}",
+        "multiples_of": "Mga pagtaas ng {{ quantity }}",
+        "min_of": "Min {{ quantity }}",
+        "max_of": "Max {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> sa cart",
+        "note": "Tingnan ang mga panuntunan sa dami"
+      },
+      "volume_pricing": {
+        "title": "Pagpepresyo ng Dami",
+        "note": "Available ang pagpepresyo ng volume",
+        "minimum": "{{ quantity }} +",
+        "price_at_each": "sa {{ price }} \/ea"
+      },
+      "pickup_availability": {
+        "view_store_info": "Tingnan ang impormasyon ng tindahan",
+        "check_other_stores": "Tingnan ang availability sa iba pang mga tindahan",
+        "pick_up_available": "Available ang pickup",
+        "pick_up_available_at_html": "Available ang pickup sa <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Kasalukuyang hindi available ang pickup sa <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "unavailable": "Hindi ma-load ang availability ng pickup"
+      },
+      "price": {
+        "from_price_html": "Mula sa {{ price }}",
+        "regular_price": "Regular na presyo",
+        "sale_price": "Presyo ng pagbebenta",
+        "unit_price": "Presyo ng isang piraso"
+      },
+      "share": "Ibahagi ang produktong ito",
+      "sold_out": "Ubos na",
+      "unavailable": "Hindi magagamit",
+      "vendor": "Nagtitinda",
+      "value_unavailable": "{{ option_value }} - Hindi magagamit",
+      "variant_sold_out_or_unavailable": "Sold out o hindi available ang variant",
+      "video_exit_message": "Binubuksan ng {{ title }} ang full screen na video sa parehong window.",
+      "view_full_details": "Tingnan ang buong detalye",
+      "xr_button": "Tingnan sa iyong espasyo",
+      "xr_button_label": "Tingnan sa iyong espasyo, naglo-load ng item sa window ng augmented reality",
+      "taxes_included": "Kasama ang mga buwis.",
+      "duties_included": "Kasama ang mga tungkulin.",
+      "duties_and_taxes_included": "Kasama ang mga tungkulin at buwis.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">Ang pagpapadala<\/a> ay kinakalkula sa pag-checkout."
+    },
+    "facets": {
+      "filter_and_operator_subtitle": "Tugma sa lahat",
+      "apply": "Mag-apply",
+      "clear": "Maaliwalas",
+      "clear_all": "Alisin lahat",
+      "from": "Mula sa",
+      "filter_and_sort": "Salain at pag-uri-uriin",
+      "filter_by_label": "Salain:",
+      "filter_button": "Salain",
+      "filters_selected": {
+        "one": "{{ count }} ang napili",
+        "other": "{{ count }} ang napili"
+      },
+      "filter_selected_accessibility": "{{ type }} ( {{ count }} na mga filter ang napili)",
+      "show_more": "Magpakita ng higit pa",
+      "show_less": "Magpakita ng mas kaunti",
+      "max_price": "Ang pinakamataas na presyo ay {{ price }}",
+      "product_count": {
+        "one": "{{ product_count }} ng {{ count }} na produkto",
+        "other": "{{ product_count }} ng {{ count }} na mga produkto"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} produkto",
+        "other": "{{ count }} na mga produkto"
+      },
+      "reset": "I-reset",
+      "sort_button": "Pagbukud-bukurin",
+      "sort_by_label": "Pagbukud-bukurin ayon sa:",
+      "to": "Upang",
+      "clear_filter": "Alisin ang filter"
     }
   }
 }
