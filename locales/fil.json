@@ -2432,7 +2432,46 @@
       "january": "Enero",
       "february": "Pebrero",
       "march": "Marso",
-      "april": "Abril"
+      "april": "Abril",
+      "june": "Hunyo",
+      "july": "Hulyo",
+      "august": "Agosto",
+      "september": "Setyembre",
+      "october": "Oktubre",
+      "november": "Nobyembre",
+      "december": "Disyembre",
+      "monday": "Lunes",
+      "tuesday": "Martes",
+      "wednesday": "Miyerkules",
+      "thursday": "Huwebes",
+      "friday": "Biyernes",
+      "saturday": "Sabado",
+      "sunday": "Linggo",
+      "wednesdayAbbreviation": "Kami",
+      "fridayAbbreviation": "Sinabi ni Fr",
+      "showNextMonth": "Ipakita sa susunod na buwan, {{month}} {{year}}",
+      "showPreviousMonth": "Ipakita ang nakaraang buwan, {{month}} {{year}}",
+      "rangeStart": "Simula ng saklaw",
+      "inRange": "Nasa hanay",
+      "rangeEnd": "dulo ng saklaw",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} item na available",
+        "other": "{{count}} na mga item ang available"
+      },
+      "removeItem": "Alisin ang {{label}}",
+      "removeTag": "Alisin ang tag",
+      "month": {
+        "one": "buwan",
+        "other": "buwan"
+      },
+      "mapClusterTitle": {
+        "one": "Cluster ng {{number}} marker",
+        "other": "Cluster ng {{number}} marker"
+      },
+      "expandSheet": "Palawakin",
+      "addFile": "Magdagdag ng file",
+      "dropzoneInvalidFileType": "Hindi sinusuportahan ang uri ng file",
+      "dropzoneDraggedOver": "I-drop ang file para i-upload"
     },
     "orders": {
       "order_list": {
@@ -2804,6 +2843,27 @@
         "description": "I-refresh ang page na ito o subukang muli sa loob ng ilang minuto.",
         "refresh_button": "I-refresh ang page"
       }
+    },
+    "profile_preview_bar": {
+      "customize_button": "I-customize",
+      "hide_bar": "Itago ang Bar",
+      "navigate_to_admin": "Mag-navigate sa admin",
+      "close_preview": "Isara ang preview",
+      "previewing": "Pini-preview mo:",
+      "saved_at": "Na-save {{date}} noong {{time}}",
+      "viewing": "Tinitingnan mo:",
+      "not_available": "Hindi available ang data ng profile",
+      "actions_button": "Mga aksyon"
+    },
+    "settings": {
+      "title": "Mga setting",
+      "loading_accessibility_message": "Nilo-load ang pahina ng mga setting",
+      "log_out_everywhere": {
+        "title": "Mag-log out kahit saan",
+        "description": "Kung nawalan ka ng device o may mga alalahanin sa seguridad, mag-log out kahit saan upang matiyak ang seguridad ng iyong account.",
+        "button": "Mag-log out kahit saan",
+        "warning_message": "Mala-log out ka rin sa device na ito."
+      }
     }
   },
   "sections": {
@@ -2840,6 +2900,73 @@
       "min_error": "Ang item na ito ay may minimum na {{ min }}",
       "max_error": "Ang item na ito ay may maximum na {{ max }}",
       "step_error": "Maaari mo lamang idagdag ang item na ito sa mga dagdag na {{ step }}"
+    },
+    "announcements": {
+      "previous_announcement": "Nakaraang anunsyo",
+      "next_announcement": "Susunod na anunsyo",
+      "announcement": "Anunsyo",
+      "announcement_bar": "Bar ng anunsyo"
+    },
+    "header": {
+      "announcement": "Anunsyo",
+      "cart_count": {
+        "one": "{{ count }} item",
+        "other": "{{ count }} item"
+      }
+    },
+    "cart": {
+      "title": "Ang iyong kariton",
+      "caption": "Mga item sa cart",
+      "remove_title": "Alisin {{ title }}",
+      "estimated_total": "Tinatayang kabuuan",
+      "new_estimated_total": "Bagong tinantyang kabuuan",
+      "note": "Mag-order ng mga espesyal na tagubilin",
+      "checkout": "Tignan mo",
+      "empty": "Walang laman ang iyong cart",
+      "cart_error": "Nagkaroon ng error habang ina-update ang iyong cart. Pakisubukang muli.",
+      "cart_quantity_error_html": "Maaari ka lamang magdagdag ng {{ quantity }} ng item na ito sa iyong cart.",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Kasama ang mga tungkulin at buwis. Ang mga diskwento at <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">pagpapadala<\/a> ay kinakalkula sa pag-checkout.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Kasama ang mga tungkulin at buwis. Ang mga diskwento at pagpapadala ay kinakalkula sa pag-checkout.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Kasama ang mga buwis. Ang mga diskwento at <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">pagpapadala<\/a> ay kinakalkula sa pag-checkout.",
+      "taxes_included_shipping_at_checkout_without_policy": "Kasama ang mga buwis. Ang mga diskwento at pagpapadala ay kinakalkula sa pag-checkout.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Kasama ang mga tungkulin. Ang mga buwis, diskwento at <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">pagpapadala<\/a> ay kinakalkula sa pag-checkout.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Kasama ang mga tungkulin. Ang mga buwis, diskwento at pagpapadala ay kinakalkula sa pag-checkout.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Ang mga buwis, diskwento at <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">pagpapadala<\/a> ay kinakalkula sa pag-checkout.",
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Ang mga buwis, diskwento at pagpapadala ay kinakalkula sa pag-checkout.",
+      "headings": {
+        "product": "produkto",
+        "price": "Presyo",
+        "total": "Kabuuan",
+        "quantity": "Dami",
+        "image": "Larawan ng produkto"
+      },
+      "login": {
+        "title": "May account?",
+        "paragraph_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"link underlined-link\">Mag-log in<\/a> upang mag-check out nang mas mabilis."
+      }
+    },
+    "footer": {
+      "payment": "Mga paraan ng pagbabayad"
+    },
+    "featured_blog": {
+      "view_all": "Tingnan lahat",
+      "onboarding_title": "Post sa blog",
+      "onboarding_content": "Bigyan ang iyong mga customer ng buod ng iyong post sa blog"
+    },
+    "featured_collection": {
+      "view_all": "Tingnan lahat",
+      "view_all_label": "Tingnan ang lahat ng produkto sa {{ collection_name }} na koleksyon"
+    },
+    "collection_list": {
+      "view_all": "Tingnan lahat"
+    },
+    "collection_template": {
+      "empty": "Walang nakitang mga produkto",
+      "title": "Koleksyon",
+      "use_fewer_filters_html": "Gumamit ng mas kaunting mga filter o <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">alisin ang lahat<\/a>"
+    },
+    "video": {
+      "load_video": "Mag-load ng video: {{ description }}"
     }
   },
   "general": {
