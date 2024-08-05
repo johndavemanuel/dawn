@@ -503,10 +503,140 @@
         "redirection_notice": "Pagkatapos i-click ang \" {{buttonLabel}} \", ire-redirect ka sa {{walletName}} upang kumpletuhin ang iyong pagbili nang secure.",
         "errors": {
           "unavailable": {
-            "title": "Hindi available {{walletName}}"
+            "title": "Hindi available {{walletName}}",
+            "description": "Hindi available {{walletName}} . Gumamit ng ibang paraan ng pagbabayad o subukang muli sa ibang pagkakataon.",
+            "instructions": "Nagkaroon ng isyu sa {{walletName}} . Bumalik sa store upang subukang muli o tingnan ang ibang paraan.",
+            "unavailable_for_country": "Hindi available {{walletName}} sa {{countryName}} . Pumili ng ibang paraan ng pagbabayad para makumpleto ang iyong pagbili"
+          },
+          "unavailable_terminal": {
+            "instructions": "Kasalukuyang hindi available {{walletName}} para sa iyong order. Para ipagpatuloy ang iyong pagbili, pumili ng ibang paraan ng pag-checkout."
+          },
+          "generic": "Nagkaroon ng isyu sa {{walletName}} . Subukang muli o gumamit ng ibang paraan ng pagbabayad.",
+          "terminal": "Nagkaroon ng isyu sa {{walletName}} . Mangyaring gumamit ng ibang paraan ng pagbabayad.",
+          "detour": {
+            "stock_problems": "Ang ilang mga item ay hindi na magagamit. Isara ang {{walletName}} at subukang muli.",
+            "price_change": "Nagbago ang ilang presyo ng item. Isara ang {{walletName}} upang suriin ang iyong order at subukang muli.",
+            "queue": "Inilagay ka sa isang pila para mag-checkout. Isara {{walletName}} upang magpatuloy."
+          },
+          "unsupported": {
+            "address": "Hindi makapaghatid ang merchant sa address na ito",
+            "wallet_is_unavailable": "Hindi magagamit ang {{walletName}} sa address na ito. Pumili ng ibang address o isara ang {{walletName}} para kumpletuhin ang iyong pagbili",
+            "postal_code": "Hindi sinusuportahan ang lokasyong ito"
+          },
+          "outdated": {
+            "shipping_method": "Nagbago ang mga opsyon sa pagpapadala para sa iyong order. Suriin ang iyong pinili."
+          },
+          "invalid": {
+            "shipping_address": "Maglagay ng wastong address sa pagpapadala",
+            "billing_address": "Maglagay ng wastong billing address",
+            "shipping_option": "Pumili ng wastong opsyon sa pagpapadala",
+            "email": "Maglagay ng wastong email",
+            "zone": "Maglagay ng wastong estado \/ lalawigan",
+            "postal_code": "Maglagay ng wastong ZIP \/ postal code",
+            "reduction_code": "Maglagay ng wastong discount code o gift card",
+            "billing_must_match_shipping": "Dapat tumugma sa address ng pagpapadala"
+          },
+          "missing": {
+            "first_name": "Maglagay ng unang pangalan",
+            "last_name": "Maglagay ng apelyido",
+            "address1": "Maglagay ng address",
+            "address2": "Pumasok sa isang apartment, suite, atbp.",
+            "city": "Pumasok sa isang lungsod",
+            "province": "Pumili ng estado \/ probinsya",
+            "country": "Pumili ng bansa\/rehiyon",
+            "zip": "Maglagay ng ZIP \/ postal code",
+            "phone": "Maglagay ng numero ng telepono"
+          },
+          "formatting": {
+            "name_contains_emojis": "Tanggalin ang emoji sa iyong pangalan",
+            "postal_code_contains_emoji": "Tanggalin ang emoji mula sa iyong postal code",
+            "first_name_too_long": "Ang unang pangalan ay naglalaman ng napakaraming titik",
+            "last_name_too_long": "Masyadong maraming titik ang apelyido"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Ang iyong address sa pagpapadala ay hindi wasto. Pumili ng ibang address o gumamit ng bago."
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "Bawasan ang laki ng tala sa 5000 o mas kaunting mga character."
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Ang presyo ng gift card ay dapat na mas mataas sa 0.",
+            "gift_card_price_must_not_exceed_limit": "Ang presyo ng gift card ay hindi dapat lumampas sa %{gift_card_limit}.",
+            "subtotal_limit_reached": "Naabot na ang maximum na halaga ng mga line item."
           }
         }
       }
+    },
+    "pagination": {
+      "previous": "Nakaraang",
+      "next": "Susunod"
+    },
+    "links": {
+      "powered_by_shopify": "Pinapatakbo ng Shopify",
+      "learn_more": "Matuto pa"
+    },
+    "feed": {
+      "more": "Higit pa"
+    },
+    "attributes": {
+      "password_confirmation": "Ang pagkumpirma ng password",
+      "first_name": "pangalan",
+      "last_name": "huling pangalan",
+      "body": "katawan"
+    },
+    "addresses": {
+      "pincode": "Pin code",
+      "region": "Rehiyon",
+      "province": "Lalawigan",
+      "state": "Estado",
+      "state_and_territory": "Estado\/teritoryo",
+      "emirate": "emirate",
+      "governorate": "Gobernadora",
+      "confirm": "Sigurado ka bang gusto mong tanggalin ang address na ito?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Itinatampok",
+        "best_selling": "Pinakamabenta",
+        "az": "Ayon sa alpabeto, AZ",
+        "za": "Ayon sa alpabeto, ZA",
+        "price_ascending": "Presyo, mababa hanggang mataas",
+        "price_descending": "Presyo, mataas hanggang mababa",
+        "date_ascending": "Petsa, luma hanggang bago",
+        "date_descending": "Petsa, bago hanggang luma"
+      }
+    },
+    "errors": {
+      "blank": "hindi pwedeng blangko",
+      "blocked_address": "Ang lokasyong ito ay hindi suportado",
+      "credit_card_session_expired": "Ang awtorisasyon sa credit card ay nag-expire na, mangyaring ilagay muli ang iyong impormasyon sa pagbabayad. Ang iyong card ay hindi nasingil.",
+      "empty": "hindi maaaring walang laman",
+      "invalid_email": "Dapat ay isang wastong e-mail address",
+      "discount_disabled": "Ang diskwento na ito ay hindi pinagana",
+      "discount_expired": "Wala nang bisa ang diskwento na ito",
+      "discount_limit_reached": "Naabot na ng diskwento na ito ang limitasyon sa paggamit nito",
+      "discount_not_found": "Hindi makahanap ng wastong diskwento na tumutugma sa code na inilagay",
+      "customer_already_used_once_per_customer_discount_notice": "Naabot na ng diskwento na ito ang limitasyon sa paggamit nito",
+      "gift_card_already_applied": "Nailapat na ang code sa iyong pag-checkout",
+      "gift_card_code_invalid": "Di-wasto ang code",
+      "gift_card_currency_mismatch": "Ang iyong gift card ay nasa %{gift_card_currency}. Makipag-ugnayan sa amin upang maibigay itong muli sa %{checkout_currency}.",
+      "gift_card_depleted": "Walang natitirang pondo sa gift card na ito",
+      "gift_card_disabled": "Naka-disable ang gift card",
+      "gift_card_expired": "Nag-expire na ang gift card",
+      "invalid": "ay hindi wasto",
+      "bad_domain": "naglalaman ng di-wastong pangalan ng domain",
+      "taken": "nakuha na",
+      "contains_html_tags": "hindi maaaring maglaman ng mga HTML tag",
+      "too_short": "ay masyadong maikli (minimum ay %{count} na mga character)",
+      "too_long": "ay masyadong mahaba (ang maximum ay %{count} na mga character)",
+      "password_mismatch": "dapat tumugma sa ibinigay na password",
+      "contains_spaces": "nagsisimula o nagtatapos sa mga puwang.",
+      "email_domain_invalid": "hindi suportado ang provider",
+      "invalid_for_country": "ay hindi wasto para sa %{country}",
+      "invalid_for_country_and_province": "ay hindi wasto para sa %{province} at %{country}",
+      "invalid_province_in_country": "ay hindi wastong lalawigan sa %{country}"
     }
   },
   "customer": {
