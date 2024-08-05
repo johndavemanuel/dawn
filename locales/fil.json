@@ -1279,7 +1279,94 @@
           }
         },
         "table_view": "Ipakita ang view ng talahanayan",
-        "show_order_actions_accessibility_label": "Ipakita ang mga pagkilos ng order para sa order na {{name}}"
+        "show_order_actions_accessibility_label": "Ipakita ang mga pagkilos ng order para sa order na {{name}}",
+        "column_headers": {
+          "order": "Umorder",
+          "items": "Mga bagay",
+          "total": "Kabuuan"
+        },
+        "delivered": "Naihatid {{date}}",
+        "empty_state_order_source_description": "Ang mga order lamang na inilagay ng {{email}} ang lalabas dito.",
+        "empty_state_subtitle": "Pumunta sa tindahan upang mag-order.",
+        "empty_state_title": "Wala pang order",
+        "empty_state_title_for_pending_orders": "Walang mga nakabinbing order",
+        "estimated_shortform": "Est. {{date}}",
+        "estimated_delivery": "Inaasahang {{date}}",
+        "one_images_accessibility_label": "Kasama sa order ang {{lineItemName1}}",
+        "two_images_accessibility_label": "Kasama sa order ang {{lineItemName1}} , {{lineItemName2}}",
+        "three_images_accessibility_label": "Kasama sa order ang {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "Kasama sa order ang {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "more_than_three_products_accessibility_label": "Kasama sa order ang {{lineItemName1}} , {{lineItemName2}} , at {{numberOfAdditionalProducts}} pang mga produkto",
+        "more_than_four_products_accessibility_label": "Kasama sa order ang {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , at {{numberOfAdditionalProducts}} pang mga produkto",
+        "plus_more": "+ {{numberOfAdditionalProducts}}",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} na mga produkto",
+        "carousel": {
+          "one_products_accessibility_label": "Kasama sa order ang {{lineItemName1}} dami {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Kasama sa order ang {{lineItemName1}} dami {{lineItemQuantity1}} , {{lineItemName2}} dami {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Kasama sa order ang {{lineItemName1}} dami {{lineItemQuantity1}} , {{lineItemName2}} dami {{lineItemQuantity2}} , {{lineItemName3}} dami {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Kasama sa order ang {{lineItemName1}} dami {{lineItemQuantity1}} , {{lineItemName2}} dami {{lineItemQuantity2}} , {{lineItemName3}} dami {{lineItemQuantity3}} , {{lineItemName4}} dami {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Kasama sa order ang {{lineItemName1}} dami {{lineItemQuantity1}} , {{lineItemName2}} dami {{lineItemQuantity2}} , {{lineItemName3}} dami {{lineItemQuantity3}} , {{lineItemName4}} dami {{lineItemQuantity4}} {{lineItemName5}} dami {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Kasama sa order ang {{lineItemName1}} dami {{lineItemQuantity1}} , {{lineItemName2}} dami {{lineItemQuantity2}} , {{lineItemName3}} dami {{lineItemQuantity3}} , {{lineItemName4}} dami {{lineItemQuantity4}} {{lineItemName5}} dami {{lineItemQuantity5}} , {{lineItemName6}} dami {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Kasama sa order ang {{lineItemName1}} dami {{lineItemQuantity1}} , {{lineItemName2}} dami {{lineItemQuantity2}} , {{lineItemName3}} dami {{lineItemQuantity3}} , {{lineItemName4}} dami {{lineItemQuantity4}} {{lineItemName5}} dami {{lineItemQuantity5}} , {{lineItemName6}} dami {{lineItemQuantity6}} at higit pa",
+          "view_order_details": "Tingnan ang mga detalye ng order",
+          "previous": "Nakaraang",
+          "next": "Susunod"
+        },
+        "items": {
+          "one": "{{count}} item",
+          "other": "{{count}} na mga item"
+        },
+        "list_view": "Ipakita ang view ng listahan",
+        "no_filtered_results_description": "Alisin o ayusin ang mga filter para makita ang iyong mga order",
+        "no_filtered_results_title": "Walang na-filter na resulta",
+        "order_link": "Tingnan ang order {{name}}",
+        "order_number": "Order {{name}}",
+        "orders_title": "Nakumpirma",
+        "pagination": {
+          "nav_accessibility_label": "Nag-order ng mga navigation button",
+          "next": "Susunod",
+          "next_accessibility_label": "Mga susunod na order",
+          "previous": "Nakaraan",
+          "previous_accessibility_label": "Mga nakaraang order",
+          "load_more": "Mag-load pa",
+          "load_more_accessibility_label": "Mag-load ng higit pang mga order"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Tingnan ang order para sa mga detalye",
+            "estimated_delivery": "Inaasahang {{date}}",
+            "last_updated": "Huling na-update {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Est. {{date}}"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Overdue ang pagbabayad",
+            "due": "Dapat bayaran {{date}}",
+            "due_today": "Dapat bayaran ngayon",
+            "due_without_date": "Dapat bayaran",
+            "due_on_fulfillment": "Pagbabayad na dapat bayaran sa katuparan",
+            "pay_to_confirm": "Magbayad para makumpirma",
+            "payment_not_due": "Hindi pa dapat bayaran"
+          },
+          "table_view": {
+            "overdue": "Overdue na",
+            "due": "{{date}}",
+            "due_today": "Nakatakda ngayong araw",
+            "paid": "Binayaran",
+            "due_without_date": "Dahil",
+            "due_on_fulfillment": "Dahil sa katuparan",
+            "pay_to_confirm": "Magbayad para makumpirma",
+            "payment_not_due": "Hindi pa due"
+          }
+        },
+        "sort_by": "Pagbukud-bukurin ayon sa: {{option}}",
+        "sort_hide_options_accessibility_label": "Itago ang mga opsyon sa pag-uuri para sa mga nakumpirmang order.",
+        "sort_show_options_accessibility_label": "Ipakita ang mga opsyon sa pag-uuri para sa mga nakumpirmang order.",
+        "sort_currently_sorted_by_accessibility_label": "Kasalukuyang pinagbubukod-bukod ayon sa: {{option}}",
+        "sort_title": "Pagbukud-bukurin"
       },
       "order_status": {
         "attempted_delivery_label": "sinubukang ipadala",
@@ -1400,7 +1487,47 @@
         "other": "Kung hindi sila natanggap,"
       },
       "let_us_know": "Ipaalam sa amin",
-      "contact_us": "Makipag-ugnayan sa amin."
+      "contact_us": "Makipag-ugnayan sa amin.",
+      "list_layout_accessibility_label": "Mga pagpipilian sa layout",
+      "list_title": "Mga order"
+    },
+    "navigation_and_structure": {
+      "go_to_store_link": "Pumunta sa tindahan",
+      "loading_message": "Naglo-load",
+      "logout_overlay_label": "Nila-log out ka...",
+      "nav_label_accessibility_label": "Pangunahing nabigasyon",
+      "navigation_accessibility_message": "Nag-navigate ka sa {{sectionName}}",
+      "open_menu_accessibility_label": "Buksan ang pangunahing nabigasyon",
+      "orders_link_label": "Mga order",
+      "shop_logo_accessibility_label": "Logo ng {{shopName}}",
+      "subscriptions_link_label": "Mga subscription",
+      "settings_link": "Mga setting"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Nilo-load ang impormasyon ng account",
+      "loading_finished_accessibility_message": "Na-load ang impormasyon ng account",
+      "profile_card": {
+        "cancel": "Kanselahin",
+        "cancel_accessibility_label": "Kanselahin ang pag-edit ng profile",
+        "edit": "I-edit",
+        "edit_accessibility_label": "Ibahin ang profile",
+        "email_help_text": "Ang email na ginamit para sa pag-login ay hindi mababago",
+        "first_name": "Pangalan",
+        "last_name": "Huling pangalan",
+        "no_name_provided_accessibility_label": "Walang idinagdag na pangalan",
+        "phone_number_help_text": "Ang numero ng telepono na ginamit para sa pag-login ay hindi maaaring baguhin",
+        "save": "I-save",
+        "save_accessibility_label": "I-save ang profile"
+      },
+      "profile_update_confirmation_message": "Na-update ang profile",
+      "people": {
+        "pagination": {
+          "load_more": "Mag-load pa",
+          "load_more_accessibility_label": "Mag-load ng mas maraming tao",
+          "loading_accessibility_label": "Naglo-load ng mga tao"
+        }
+      },
+      "add_button": "Idagdag"
     }
   },
   "sections": {
