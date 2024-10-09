@@ -62,6 +62,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Materials",
             "icon": "leather",
@@ -92,7 +93,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "",
+            "content": "{{ product.metafields.custom.dave.value.content | metafield_tag }}",
             "page": ""
           }
         },
