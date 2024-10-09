@@ -92,7 +92,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "",
+            "content": "{{ product.metafields.custom.dave.value.content | metafield_tag }}",
             "page": ""
           }
         },
