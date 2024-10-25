@@ -1,0 +1,14 @@
+{
+    "name": "dawn",
+    "version": "1.0.0",
+    "description": "[![Generic badge](https://img.shields.io/badge/course%20available%3F-yes-green.svg)](https://shields.io/)",
+    "main": "index.js",
+    "scripts": {
+      "dev": "shopify theme dev --store checkout-upgrade-test-123",
+      "themeCheck": "shopify theme check -a"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+  
