@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin language editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -538,6 +538,19 @@
     "checkout": {
       "field_errors": {
         "split_cart_international_shipping_not_supported": "Alla varor måste använda samma leveransmetod när de skickas internationellt. Uppdatera leveransmetoden eller skapa flera beställningar."
+      },
+      "order_summary": {
+        "number_items": {
+          "one": "%{count} objekt",
+          "other": "%{count} objekt"
+        },
+        "view_all_items": {
+          "one": "Visa %{count} objekt",
+          "other": "Visa alla %{count} objekt"
+        }
+      },
+      "payment": {
+        "kcp_creditcard_label": "KCP kreditkort"
       }
     }
   }
