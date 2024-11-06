@@ -13,5 +13,16 @@
     "market": "south-america"
   },
   "sections": {
+    "image_banner": {
+      "settings": {
+      },
+      "blocks": {
+        "heading": {
+          "settings": {
+            "heading": "Image banner South america"
+          }
+        }
+      }
+    }
   }
 }
