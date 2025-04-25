@@ -1,0 +1,64 @@
+[
+    {
+        "type": "File",
+        "name": "d:\\shopify\\teddykompaniet\\assets\\helpers.js",
+        "parent_id": null,
+        "fsPath": "d:\\shopify\\teddykompaniet\\assets\\helpers.js",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "eISdl7Pm8Vx3uagR"
+    },
+    {
+        "type": "File",
+        "name": "d:\\shopify\\trade\\snippets\\card-product.liquid",
+        "parent_id": null,
+        "fsPath": "d:\\shopify\\trade\\snippets\\card-product.liquid",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "gkW1uIRHFLBYQEpf"
+    },
+    {
+        "type": "File",
+        "name": "d:\\shopify\\teddykompaniet\\assets\\quick-add-bulk.js",
+        "parent_id": null,
+        "fsPath": "d:\\shopify\\teddykompaniet\\assets\\quick-add-bulk.js",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "DVdQ1fFNsUZ7vArn"
+    },
+    {
+        "type": "File",
+        "name": "d:\\shopify\\teddykompaniet\\assets\\global.js",
+        "parent_id": null,
+        "fsPath": "d:\\shopify\\teddykompaniet\\assets\\global.js",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "p6oIiSLCUTGcayrg"
+    },
+    {
+        "type": "File",
+        "name": "d:\\shopify\\teddykompaniet\\assets\\cart-drawer.js",
+        "parent_id": null,
+        "fsPath": "d:\\shopify\\teddykompaniet\\assets\\cart-drawer.js",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "IKURawEBrp08lbWk"
+    },
+    {
+        "type": "Group",
+        "name": "Garbo",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "GsgmP5KCbVM3Jr8e"
+    },
+    {
+        "type": "File",
+        "name": "d:\\shopify\\shopify-garboandfriends\\tailwind.config.js",
+        "parent_id": "GsgmP5KCbVM3Jr8e",
+        "fsPath": "d:\\shopify\\shopify-garboandfriends\\tailwind.config.js",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "XFidbUp7S8vVaw3O"
+    }
+]
